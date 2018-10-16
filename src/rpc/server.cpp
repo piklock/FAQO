@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The ALQO & Bitfineon developers
+// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The FAQO & Bitfineon developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -263,11 +263,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop ALQO server.");
+            "\nStop FAQO server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "ALQO server stopping";
+    return "FAQO server stopping";
 }
 
 
@@ -351,37 +351,37 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* ALQO features */
-        {"alqo", "masternode", &masternode, true, true, false},
-        {"alqo", "listmasternodes", &listmasternodes, true, true, false},
-        {"alqo", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"alqo", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"alqo", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"alqo", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"alqo", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"alqo", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"alqo", "masternodedebug", &masternodedebug, true, true, false},
-        {"alqo", "startmasternode", &startmasternode, true, true, false},
-        {"alqo", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"alqo", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"alqo", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"alqo", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"alqo", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"alqo", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"alqo", "mnbudget", &mnbudget, true, true, false},
-        {"alqo", "preparebudget", &preparebudget, true, true, false},
-        {"alqo", "submitbudget", &submitbudget, true, true, false},
-        {"alqo", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"alqo", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"alqo", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"alqo", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"alqo", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"alqo", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"alqo", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"alqo", "checkbudgets", &checkbudgets, true, true, false},
-        {"alqo", "mnsync", &mnsync, true, true, false},
-        {"alqo", "spork", &spork, true, true, false},
-        {"alqo", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* FAQO features */
+        {"faqo", "masternode", &masternode, true, true, false},
+        {"faqo", "listmasternodes", &listmasternodes, true, true, false},
+        {"faqo", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"faqo", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"faqo", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"faqo", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"faqo", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"faqo", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"faqo", "masternodedebug", &masternodedebug, true, true, false},
+        {"faqo", "startmasternode", &startmasternode, true, true, false},
+        {"faqo", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"faqo", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"faqo", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"faqo", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"faqo", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"faqo", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"faqo", "mnbudget", &mnbudget, true, true, false},
+        {"faqo", "preparebudget", &preparebudget, true, true, false},
+        {"faqo", "submitbudget", &submitbudget, true, true, false},
+        {"faqo", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"faqo", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"faqo", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"faqo", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"faqo", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"faqo", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"faqo", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"faqo", "checkbudgets", &checkbudgets, true, true, false},
+        {"faqo", "mnsync", &mnsync, true, true, false},
+        {"faqo", "spork", &spork, true, true, false},
+        {"faqo", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -614,7 +614,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> alqo-cli " + methodname + " " + args + "\n";
+    return "> faqo-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

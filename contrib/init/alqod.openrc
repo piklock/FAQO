@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/alqo/.alqo" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/alqo/.alqo"
+if [ -d "/var/lib/faqo/.faqo" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/faqo/.faqo"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/alqod"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/faqod"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/alqo/alqo.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/alqod}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/alqod.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/faqo/faqo.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/faqod}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/faqod.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-alqo}
-BITCOIND_GROUP=${BITCOIND_GROUP:-alqo}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/alqod}
+BITCOIND_USER=${BITCOIND_USER:-faqo}
+BITCOIND_GROUP=${BITCOIND_GROUP:-faqo}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/faqod}
 
-name="ALQO Core Daemon"
-description="ALQO crypto-currency p2p network daemon"
+name="FAQO Core Daemon"
+description="FAQO crypto-currency p2p network daemon"
 
-command="/usr/bin/alqod"
+command="/usr/bin/faqod"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run alqod."
+		eerror "ERROR: You must set a secure rpcpassword to run faqod."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"ALQO Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"FAQO Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

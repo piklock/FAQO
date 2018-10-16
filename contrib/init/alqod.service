@@ -1,19 +1,19 @@
 [Unit]
-Description=ALQO's distributed currency daemon
+Description=FAQO's distributed currency daemon
 After=network.target
 
 [Service]
-User=alqo
-Group=alqo
+User=faqo
+Group=faqo
 
 Type=forking
-PIDFile=/var/lib/alqod/alqod.pid
+PIDFile=/var/lib/faqod/faqod.pid
 
-ExecStart=/usr/bin/alqod -daemon -pid=/var/lib/alqod/alqod.pid \
-          -conf=/etc/alqo/alqo.conf -datadir=/var/lib/alqod
+ExecStart=/usr/bin/faqod -daemon -pid=/var/lib/faqod/faqod.pid \
+          -conf=/etc/faqo/faqo.conf -datadir=/var/lib/faqod
 
-ExecStop=-/usr/bin/alqo-cli -conf=/etc/alqo/alqo.conf \
-         -datadir=/var/lib/alqod stop
+ExecStop=-/usr/bin/faqo-cli -conf=/etc/faqo/faqo.conf \
+         -datadir=/var/lib/faqod stop
 
 Restart=always
 PrivateTmp=true

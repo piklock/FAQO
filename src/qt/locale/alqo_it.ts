@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi ALQO per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your FAQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi FAQO per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi ALQO per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your FAQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi FAQO per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>ALQO verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XLQ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XLQ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a ALQO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo ALQO da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a FAQO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo FAQO da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The ALQO address to encrypt</source>
-        <translation>Indirizzo ALQO da crittografare</translation>
+        <source>The FAQO address to encrypt</source>
+        <translation>Indirizzo FAQO da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this ALQO address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo ALQO</translation>
+        <source>Encrypt the private key for this FAQO address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo FAQO</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,16 +645,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>Invia valuta all'indirizzo ALQO</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>Invia valuta all'indirizzo FAQO</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e alqo: URIs)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e faqo: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
-        <translation>&amp;Informazioni ALQO Core</translation>
+        <source>&amp;About FAQO Core</source>
+        <translation>&amp;Informazioni FAQO Core</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
-        <translation>Visualizza informazioni su ALQO Core</translation>
+        <source>Show information about FAQO Core</source>
+        <translation>Visualizza informazioni su FAQO Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>Modifica le opzioni di configurazione per ALQO</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>Modifica le opzioni di configurazione per FAQO</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi ALQO per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi FAQO per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ALQO specifici</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi FAQO specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a ALQO: URI or payment request</source>
-        <translation>Apri un ALQO: URI o richiesta di pagamento</translation>
+        <source>Open a FAQO: URI or payment request</source>
+        <translation>Apri un FAQO: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,15 +729,15 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
-        <translation>Mostra il messaggio di aiuto ALQO Core per ottenere un elenco con le possibili opzioni di riga di comando ALQO</translation>
+        <source>Show the FAQO Core help message to get a list with possible FAQO command-line options</source>
+        <translation>Mostra il messaggio di aiuto FAQO Core per ottenere un elenco con le possibili opzioni di riga di comando FAQO</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core client</source>
+        <translation>FAQO Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to ALQO network</source>
+        <source>%n active connection(s) to FAQO network</source>
         <translation><numerusform>%n connessione attiva alla rete XLQIX</numerusform><numerusform>%n connessioni attive alla rete XLQIX</numerusform></translation>
     </message>
     <message>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>Etichetta</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (alqo.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (alqo.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (faqo.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (faqo.conf)</translation>
     </message>
 </context>
 <context>
@@ -1173,8 +1173,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ALQO address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo ALQO valido.</translation>
+        <source>The entered address "%1" is not a valid FAQO address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo FAQO valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About ALQO Core</source>
-        <translation>Informazioni su ALQO Core</translation>
+        <source>About FAQO Core</source>
+        <translation>Informazioni su FAQO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to ALQO Core.</source>
+        <source>Welcome to FAQO Core.</source>
         <translation>Benvenuto in XLQIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ALQO Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove ALQO Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where FAQO Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove FAQO Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>ALQO Core will download and store a copy of the ALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ALQO Core scaricherà e salverà una copia della blockchain ALQO. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>FAQO Core will download and store a copy of the FAQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FAQO Core scaricherà e salverà una copia della blockchain FAQO. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ALQO addresses after it matures.
-To Add: enter percentage to give and ALQO address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FAQO addresses after it matures.
+To Add: enter percentage to give and FAQO address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi ALQO fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo ALQO da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi FAQO fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo FAQO da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1804,8 +1804,8 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current ALQO balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo ALQO corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current FAQO balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo FAQO corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
         <source>zXLQ Balance</source>
@@ -1878,14 +1878,14 @@ Se il conio automatico è attivato questa percentuale si stabilizzerà all'incir
         <translation>AutoMint è attivo e impostato su</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in alqo.conf.</source>
-        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in alqo.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in faqo.conf.</source>
+        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in faqo.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in alqo.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf</source>
         <translation>Conio automatico è correntemente disattivato.
-Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in alqo.conf</translation>
+Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in faqo.conf</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Gli zXLQ sono maturi quando hanno più di 20 conferme E più di 2 conii della st
         <source>Show the current status of automatic zXLQ minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to alqo.conf
-- disable: add 'enablezeromint=0' to alqo.conf
+- enable: add 'enablezeromint=1' to faqo.conf
+- disable: add 'enablezeromint=0' to faqo.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zXLQ
@@ -2060,8 +2060,8 @@ To change the percentage (no restart required):
 </source>
         <translation>Mostra lo stato corrente del conio automatico zXLQ.
 Per cambiare lo stato (riavvio necessario):
-- attivato: aggiungi 'enablezeromint=1' a alqo.conf
-- disattivato: aggiungi 'enablezeromint=0' a alqo.conf
+- attivato: aggiungi 'enablezeromint=1' a faqo.conf
+- disattivato: aggiungi 'enablezeromint=0' a faqo.conf
 
 Per cambiare la percentuale (riavvio non necessario):
 - menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zXLQ da coniare automaticamente
@@ -2483,8 +2483,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ALQO address to sign the message with</source>
-        <translation>L'indirizzo ALQO per firmare il messaggio con</translation>
+        <source>The FAQO address to sign the message with</source>
+        <translation>L'indirizzo FAQO per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2507,16 +2507,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ALQO</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo FAQO</translation>
     </message>
     <message>
-        <source>The ALQO address the message was signed with</source>
-        <translation>L'indirizzo ALQO con cui è stato firmato il messaggio</translation>
+        <source>The FAQO address the message was signed with</source>
+        <translation>L'indirizzo FAQO con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ALQO specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified FAQO address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo FAQO specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2554,8 +2554,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
@@ -2677,7 +2677,7 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

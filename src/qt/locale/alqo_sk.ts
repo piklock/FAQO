@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše ALQO adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your FAQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše FAQO adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše ALQO adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your FAQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše FAQO adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>ALQO sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše XLQ pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše XLQ pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -569,16 +569,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>Odoslať mince na adresu ALQO</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>Odoslať mince na adresu FAQO</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a alqo: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a faqo: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -589,24 +589,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
-        <translation>O ALQO Core</translation>
+        <source>&amp;About FAQO Core</source>
+        <translation>O FAQO Core</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
-        <translation>Zobraziť informácie o ALQO Core</translation>
+        <source>Show information about FAQO Core</source>
+        <translation>Zobraziť informácie o FAQO Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>Zmeňte možnosti konfigurácie pre ALQO</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>Zmeňte možnosti konfigurácie pre FAQO</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy ALQO, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy FAQO, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými ALQO adresami</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými FAQO adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -637,8 +637,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a ALQO: URI or payment request</source>
-        <translation>Otvorte ALQO: URI alebo žiadosť o platbu</translation>
+        <source>Open a FAQO: URI or payment request</source>
+        <translation>Otvorte FAQO: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -649,12 +649,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
-        <translation>Zobraziť pomocnú správu programu ALQO Core a získajte zoznam možností príkazového riadka ALQO</translation>
+        <source>Show the FAQO Core help message to get a list with possible FAQO command-line options</source>
+        <translation>Zobraziť pomocnú správu programu FAQO Core a získajte zoznam možností príkazového riadka FAQO</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>ALQO Core klient</translation>
+        <source>FAQO Core client</source>
+        <translation>FAQO Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -776,8 +776,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (alqo.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (alqo.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (faqo.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (faqo.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -867,15 +867,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1114,8 +1114,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ALQO address to sign the message with</source>
-        <translation>Adresa ALQO, ktorou chcete správu podpísať</translation>
+        <source>The FAQO address to sign the message with</source>
+        <translation>Adresa FAQO, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1138,16 +1138,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto ALQO adresy</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto FAQO adresy</translation>
     </message>
     <message>
-        <source>The ALQO address the message was signed with</source>
-        <translation>ALQO adresa, ktorou bola správa podpísaná</translation>
+        <source>The FAQO address the message was signed with</source>
+        <translation>FAQO adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou ALQO adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified FAQO address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou FAQO adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1185,8 +1185,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
@@ -1284,7 +1284,7 @@ MultiSend: %1</translation>
     <name>ZXlqControlDialog</name>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

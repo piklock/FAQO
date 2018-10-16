@@ -1,9 +1,9 @@
-// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The ALQO & Bitfineon developers
+// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The FAQO & Bitfineon developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ALQO_STAKEINPUT_H
-#define ALQO_STAKEINPUT_H
+#ifndef FAQO_STAKEINPUT_H
+#define FAQO_STAKEINPUT_H
 
 class CKeyStore;
 class CWallet;
@@ -87,4 +87,4 @@ public:
 };
 
 
-#endif //ALQO_STAKEINPUT_H
+#endif //FAQO_STAKEINPUT_H

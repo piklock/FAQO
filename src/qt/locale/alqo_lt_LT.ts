@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų ALQO adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your FAQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų FAQO adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų ALQO adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your FAQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų FAQO adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar ALQO išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų XLQ nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar FAQO išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų XLQ nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a ALQO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Įveskite ALQO adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
+        <source>Enter a FAQO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Įveskite FAQO adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The ALQO address to encrypt</source>
-        <translation>ALQO adresas, kurį norite užšifruoti</translation>
+        <source>The FAQO address to encrypt</source>
+        <translation>FAQO adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this ALQO address</source>
-        <translation>Užšifruoti šio ALQO adreso privatų raktą</translation>
+        <source>Encrypt the private key for this FAQO address</source>
+        <translation>Užšifruoti šio FAQO adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,16 +645,16 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>Siųsti monetas į ALQO adresą</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>Siųsti monetas į FAQO adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir alqo URI)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir faqo URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
-        <translation>&amp;Apie ALQO Core</translation>
+        <source>&amp;About FAQO Core</source>
+        <translation>&amp;Apie FAQO Core</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
-        <translation>Rodyti informaciją apie ALQO Core</translation>
+        <source>Show information about FAQO Core</source>
+        <translation>Rodyti informaciją apie FAQO Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>Keisti ALQO konfigūravimo parinktis</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>Keisti FAQO konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo ALQO adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo FAQO adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais ALQO adresais</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais FAQO adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a ALQO: URI or payment request</source>
-        <translation>Atidaryti ALQO: URI arba mokėjimo prašymą</translation>
+        <source>Open a FAQO: URI or payment request</source>
+        <translation>Atidaryti FAQO: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
-        <translation>Rodyti ALQO Core žinyną, kad gautumėte sąrašą su galimomis ALQO komandinės eilutės parinktimis</translation>
+        <source>Show the FAQO Core help message to get a list with possible FAQO command-line options</source>
+        <translation>Rodyti FAQO Core žinyną, kad gautumėte sąrašą su galimomis FAQO komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>ALQO Core piniginė</translation>
+        <source>FAQO Core client</source>
+        <translation>FAQO Core piniginė</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to ALQO network</source>
-        <translation><numerusform>%n aktyvių prisijungimų ALQO tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų ALQO tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų ALQO tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų ALQO tinkle ()</numerusform></translation>
+        <source>%n active connection(s) to FAQO network</source>
+        <translation><numerusform>%n aktyvių prisijungimų FAQO tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų FAQO tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų FAQO tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų FAQO tinkle ()</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (alqo.conf).</source>
-        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (alqo.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (faqo.conf).</source>
+        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (faqo.conf).</translation>
     </message>
 </context>
 <context>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ALQO address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis ALQO adresas.</translation>
+        <source>The entered address "%1" is not a valid FAQO address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis FAQO adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About ALQO Core</source>
-        <translation>Apie ALQO Core</translation>
+        <source>About FAQO Core</source>
+        <translation>Apie FAQO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1278,16 +1278,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to ALQO Core.</source>
-        <translation>Sveiki atvykę į ALQO Core</translation>
+        <source>Welcome to FAQO Core.</source>
+        <translation>Sveiki atvykę į FAQO Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ALQO Core will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur ALQO Core saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where FAQO Core will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur FAQO Core saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>ALQO Core will download and store a copy of the ALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ALQO Core atsisiųs ir saugos ALQO blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>FAQO Core will download and store a copy of the FAQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FAQO Core atsisiųs ir saugos FAQO blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1298,8 +1298,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1440,12 +1440,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ALQO addresses after it matures.
-To Add: enter percentage to give and ALQO address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FAQO addresses after it matures.
+To Add: enter percentage to give and FAQO address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus ALQO adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir ALQO adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus FAQO adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir FAQO adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1782,16 +1782,16 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Obfuscation Konfigūracija</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į paprastą (%1 ir 2 raundai). Bet kada galite tai pakeisti, atidarę ALQO konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FAQO's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į paprastą (%1 ir 2 raundai). Bet kada galite tai pakeisti, atidarę FAQO konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę ALQO konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FAQO's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę FAQO konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę ALQO konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FAQO's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę FAQO konfigūracijos ekraną.</translation>
     </message>
 </context>
 <context>
@@ -1844,12 +1844,12 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Ekspertas</translation>
     </message>
     <message>
-        <source>Automatically start ALQO after logging in to the system.</source>
-        <translation>Automatiškai paleisti ALQO prisijungus prie sistemos.</translation>
+        <source>Automatically start FAQO after logging in to the system.</source>
+        <translation>Automatiškai paleisti FAQO prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start ALQO on system login</source>
-        <translation>&amp;Paleisti ALQO sistemai įsijungiant</translation>
+        <source>&amp;Start FAQO on system login</source>
+        <translation>&amp;Paleisti FAQO sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1876,14 +1876,14 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ALQO.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "ALQO".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FAQO.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "FAQO".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/alqo-project/alqo-project-translations</source>
+https://www.transifex.com/faqo-project/faqo-project-translations</source>
         <translation>Trūksta kalbos arba vertimas nebaigtas? Padėkite prisidėdami prie vertimų čia: 
-https://www.transifex.com/alqo-project/alqo-project-translations</translation>
+https://www.transifex.com/faqo-project/faqo-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1910,8 +1910,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations</translation>
         <translation>Pageidautinas zXLQ Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
-        <source>Connect to the ALQO network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie ALQO tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the FAQO network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie FAQO tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2053,8 +2053,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations</translation>
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current ALQO balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis ALQO balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current FAQO balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis FAQO balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
         <source>zXLQ Balance</source>
@@ -2073,8 +2073,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo po to, kai buvo konvertuotas.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su ALQO tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FAQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su FAQO tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2141,8 +2141,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>AutoMint šiuo metu įgalintas ir nustatytas</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in alqo.conf.</source>
-        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' alqo.conf faile.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in faqo.conf.</source>
+        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' faqo.conf faile.</translation>
     </message>
     </context>
 <context>
@@ -2156,8 +2156,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Netinkamas mokėjimo adresas %1</translation>
     </message>
     <message>
-        <source>Cannot start alqo: click-to-pay handler</source>
-        <translation>Nepavyksta paleisti alqo: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
+        <source>Cannot start faqo: click-to-pay handler</source>
+        <translation>Nepavyksta paleisti faqo: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2210,8 +2210,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Veiksmai:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su ALQO tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FAQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su FAQO tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2604,8 +2604,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Klaida: jūsų piniginė užrakinta. Pirmiausia įveskite piniginės slaptažodį.</translation>
     </message>
     <message>
-        <source>Invalid ALQO Address</source>
-        <translation>Netinkamas ALQO Adresas</translation>
+        <source>Invalid FAQO Address</source>
+        <translation>Netinkamas FAQO Adresas</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2651,8 +2651,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a ALQO address (e.g. %1)</source>
-        <translation>Įveskite ALQO adresą (pvz. %1)</translation>
+        <source>Enter a FAQO address (e.g. %1)</source>
+        <translation>Įveskite FAQO adresą (pvz. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2829,8 +2829,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the ALQO RPC console.</source>
-        <translation>Sveiki atvykę į ALQO RPC konsolę.</translation>
+        <source>Welcome to the FAQO RPC console.</source>
+        <translation>Sveiki atvykę į FAQO RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -3158,8 +3158,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ALQO address to sign the message with</source>
-        <translation>ALQO adresas, kuriuo pasirašyti žinute</translation>
+        <source>The FAQO address to sign the message with</source>
+        <translation>FAQO adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3182,16 +3182,16 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio ALQO adreso savininkas</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio FAQO adreso savininkas</translation>
     </message>
     <message>
-        <source>The ALQO address the message was signed with</source>
-        <translation>ALQO adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The FAQO address the message was signed with</source>
+        <translation>FAQO adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu ALQO adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified FAQO address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu FAQO adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -3229,8 +3229,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
@@ -3460,7 +3460,7 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
     </message>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>
@@ -3494,8 +3494,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of ALQO Core</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės ALQO Core versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FAQO Core</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės FAQO Core versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3726,8 +3726,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Piniginė užrakinta.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart ALQO Core to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite ALQO Core iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart FAQO Core to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite FAQO Core iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

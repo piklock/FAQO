@@ -1,14 +1,14 @@
 
-ALQO (XLQ) an open source cryptocurrency and globally accessible payment network, with a highly-scalable, hyper-fast, low-fee transaction profile. The ALQO network features a low-barrier, fully democratized governance mechanism, user-friendly cross-platform clients for universal adoption and a large-scale masternode network supporting a diverse set of services available to network participants. To secure its network, ALQO utilizes a Quark-based Proof of Work consensus algorithm, to be later switched over to an environmentally-friendly Proof of Stake. Masternode operators are compensated for the services they provide, as are miners and stakers for cryptographically validating transaction on the network.
+FAQO (XLQ) an open source cryptocurrency and globally accessible payment network, with a highly-scalable, hyper-fast, low-fee transaction profile. The FAQO network features a low-barrier, fully democratized governance mechanism, user-friendly cross-platform clients for universal adoption and a large-scale masternode network supporting a diverse set of services available to network participants. To secure its network, FAQO utilizes a Quark-based Proof of Work consensus algorithm, to be later switched over to an environmentally-friendly Proof of Stake. Masternode operators are compensated for the services they provide, as are miners and stakers for cryptographically validating transaction on the network.
 
-For more information please visit us at: [alqo.org](https://alqo.org/) or visit our ANN thread at: [BitcoinTalk](https://bitcointalk.org/index.php?topic=2343884.0)
+For more information please visit us at: [faqo.org](https://faqo.org/) or visit our ANN thread at: [BitcoinTalk](https://bitcointalk.org/index.php?topic=2343884.0)
 
 # Coin Specs
 
-• Coin Name: ALQO  
+• Coin Name: FAQO  
 • Ticker: XLQ  
 • PoW Algorithm: Quark  
-• Premine: (#1 Block) 100,001 ALQO (0,17% of PoW)*  
+• Premine: (#1 Block) 100,001 FAQO (0,17% of PoW)*  
 • PoW Blocks: 2 - 409000  
 • PoS Blocks: Starting from 409001  
 • Block Time: 60 Seconds
@@ -16,7 +16,7 @@ For more information please visit us at: [alqo.org](https://alqo.org/) or visit 
 • PoW Ending: ~ ca. 330 Days (Estimated: October 2018)  
 • Masternode Requirements: 10,000 XLQ  
 • Maturity: 30 Confirmations  
-• Prefix: ALQO adresses start with the capital letter "A"   
+• Prefix: FAQO adresses start with the capital letter "A"   
 
 *the premine is going to be burned on the 1st November 2018
 
@@ -52,9 +52,9 @@ _Proof of Stake will automatically be enabled at block height 409001._
 
 # Further information
 
-_For more information check out our whitepaper at: [alqo.org/whitepaper.pdf](https://alqo.org/whitepaper.pdf)_
+_For more information check out our whitepaper at: [faqo.org/whitepaper.pdf](https://faqo.org/whitepaper.pdf)_
 
 
-Alternatively, we have added a non .pdf version in our Github repository. You can find it in the ALQO Github Wiki.
+Alternatively, we have added a non .pdf version in our Github repository. You can find it in the FAQO Github Wiki.
 
-[https://github.com/ALQOCRYPTO/ALQO/wiki](https://github.com/ALQOCRYPTO/ALQO/wiki)
+[https://github.com/FAQOCRYPTO/FAQO/wiki](https://github.com/FAQOCRYPTO/FAQO/wiki)

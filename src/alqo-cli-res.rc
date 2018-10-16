@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ALQO"
-            VALUE "FileDescription",    "ALQO-cli (OSS RPC client for ALQO)"
+            VALUE "CompanyName",        "FAQO"
+            VALUE "FileDescription",    "FAQO-cli (OSS RPC client for FAQO)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "alqo-cli"
+            VALUE "InternalName",       "faqo-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "alqo-cli.exe"
-            VALUE "ProductName",        "ALQO-cli"
+            VALUE "OriginalFilename",   "faqo-cli.exe"
+            VALUE "ProductName",        "FAQO-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ALQO"
-            VALUE "FileDescription",    "alqo-tx (CLI ALQO transaction editor utility)"
+            VALUE "CompanyName",        "FAQO"
+            VALUE "FileDescription",    "faqo-tx (CLI FAQO transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "alqo-tx"
+            VALUE "InternalName",       "faqo-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "alqo-tx.exe"
-            VALUE "ProductName",        "alqo-tx"
+            VALUE "OriginalFilename",   "faqo-tx.exe"
+            VALUE "ProductName",        "faqo-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

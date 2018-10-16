@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  alqod The ALQO core server.
+#  faqod The FAQO core server.
 #
 #
 # chkconfig: 345 80 20
-# description: alqod
-# processname: alqod
+# description: faqod
+# processname: faqod
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/alqod, see below
-if [ -f /etc/sysconfig/alqod ]; then
-        . /etc/sysconfig/alqod
+# you can override defaults in /etc/sysconfig/faqod, see below
+if [ -f /etc/sysconfig/faqod ]; then
+        . /etc/sysconfig/faqod
 fi
 
 RETVAL=0
 
-prog=alqod
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/alqod
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/alqod}
+prog=faqod
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/faqod
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/faqod}
 
-# alqod defaults to /usr/bin/alqod, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/alqod}
+# faqod defaults to /usr/bin/faqod, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/faqod}
 
-# alqod opts default to -disablewallet, override with BITCOIND_OPTS
+# faqod opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

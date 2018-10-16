@@ -1,9 +1,9 @@
-// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The ALQO & Bitfineon developers
+// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The FAQO & Bitfineon developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ALQO_ZEROCOIN_H
-#define ALQO_ZEROCOIN_H
+#ifndef FAQO_ZEROCOIN_H
+#define FAQO_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -247,4 +247,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //ALQO_ZEROCOIN_H
+#endif //FAQO_ZEROCOIN_H

@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The ALQO & Bitfineon developers
+// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The FAQO & Bitfineon developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -124,15 +124,15 @@ public:
         pchMessageStart[3] = 0x14;
         vAlertPubKey = ParseHex("0497dfcea626dca270cfe2eebf1160733b07352af966926e30058ca53dae05bbc71d64dbaa0c66e373211e324a23b361fc33e1e2dece1fb90afcefc707643a28f5");
         nDefaultPort = 55500;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // ALQO starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // FAQO starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ALQO: 1 day
-        nTargetSpacing = 1 * 60;  // ALQO: 1 minute
+        nTargetTimespan = 1 * 60; // FAQO: 1 day
+        nTargetSpacing = 1 * 60;  // FAQO: 1 minute
         nMaturity = 29;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 100000000 * COIN;
@@ -154,7 +154,7 @@ public:
         nEnforceNewSporkKey = 1525158000; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
         nRejectOldSporkKey = 1527811200; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
 
-        const char* pszTimestamp = "30th October 2017 - ALQO - The day you'll remember.";
+        const char* pszTimestamp = "30th October 2017 - FAQO - The day you'll remember.";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -173,8 +173,8 @@ public:
         assert(hashGenesisBlock == uint256("0x000006680a85db563f3a849c77e02a8c860068474ab2c5495cc24a2204727b62"));
         assert(genesis.hashMerkleRoot == uint256("0xb832a1d306b8e5b7feeb7f57ad908f6e93b89be00048393c923542036e135377"));
 
-        vSeeds.push_back(CDNSSeedData("mainseed.alqoseednodes.org", "mainseed.alqoseednodes.org"));
-        vSeeds.push_back(CDNSSeedData("mainseed2.alqoseednodes.org", "mainseed2.alqoseednodes.org"));
+        vSeeds.push_back(CDNSSeedData("mainseed.faqoseednodes.org", "mainseed.faqoseednodes.org"));
+        vSeeds.push_back(CDNSSeedData("mainseed2.faqoseednodes.org", "mainseed2.faqoseednodes.org"));
 		
         vSeeds.push_back(CDNSSeedData("85.25.138.64", "85.25.138.64"));
 		vSeeds.push_back(CDNSSeedData("85.25.185.184", "85.25.185.184"));
@@ -2252,8 +2252,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ALQO: 1 day
-        nTargetSpacing = 1 * 60;  // ALQO: 1 minute
+        nTargetTimespan = 1 * 60; // FAQO: 1 day
+        nTargetSpacing = 1 * 60;  // FAQO: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -2285,8 +2285,8 @@ public:
         vSeeds.push_back(CDNSSeedData("85.25.251.198", "85.25.251.198"));
         vSeeds.push_back(CDNSSeedData("85.25.251.199", "85.25.251.199"));
 		
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 83); // Testnet alqo addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);  // Testnet alqo script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 83); // Testnet faqo addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);  // Testnet faqo script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 193);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
 
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
@@ -2338,8 +2338,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // ALQO: 1 day
-        nTargetSpacing = 1 * 60;        // ALQO: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // FAQO: 1 day
+        nTargetSpacing = 1 * 60;        // FAQO: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1509321603;
         genesis.nBits = 0x1e0ffff0;

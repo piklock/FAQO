@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ALQO"
-            VALUE "FileDescription",    "ALQO Core (OSS GUI client for ALQO)"
+            VALUE "CompanyName",        "FAQO"
+            VALUE "FileDescription",    "FAQO Core (OSS GUI client for FAQO)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "alqo-qt"
+            VALUE "InternalName",       "faqo-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "alqo-qt.exe"
-            VALUE "ProductName",        "ALQO Core"
+            VALUE "OriginalFilename",   "faqo-qt.exe"
+            VALUE "ProductName",        "FAQO Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

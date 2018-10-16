@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw ALQO adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <source>These are your FAQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw FAQO adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw ALQO adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your FAQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw FAQO adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>ALQO zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw XLQ's kunnen stelen.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw XLQ's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>Enter a ALQO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een ALQO adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
+        <source>Enter a FAQO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een FAQO adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
     </message>
     <message>
-        <source>The ALQO address to encrypt</source>
-        <translation>Het ALQO adres om te versleutelen</translation>
+        <source>The FAQO address to encrypt</source>
+        <translation>Het FAQO adres om te versleutelen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this ALQO address</source>
-        <translation>Versleutel de privé sleutel voor dit ALQO adres</translation>
+        <source>Encrypt the private key for this FAQO address</source>
+        <translation>Versleutel de privé sleutel voor dit FAQO adres</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,16 +645,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>Verstuur munten naar een ALQO adres</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>Verstuur munten naar een FAQO adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en ALQO: URI's)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR codes en FAQO: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
-        <translation>&amp;Over ALQO Core</translation>
+        <source>&amp;About FAQO Core</source>
+        <translation>&amp;Over FAQO Core</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
-        <translation>Toon informatie over ALQO Kern</translation>
+        <source>Show information about FAQO Core</source>
+        <translation>Toon informatie over FAQO Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>Wijzig ALQO configuratie opties</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>Wijzig FAQO configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw ALQO adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw FAQO adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde ALQO adressen</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde FAQO adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a ALQO: URI or payment request</source>
-        <translation>Open een ALQO: URI of betaalverzoek</translation>
+        <source>Open a FAQO: URI or payment request</source>
+        <translation>Open een FAQO: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
-        <translation>Toon het ALQO Core help bericht om een ​​lijst te krijgen met mogelijke ALQO command line opties</translation>
+        <source>Show the FAQO Core help message to get a list with possible FAQO command-line options</source>
+        <translation>Toon het FAQO Core help bericht om een ​​lijst te krijgen met mogelijke FAQO command line opties</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>ALQO Core client</translation>
+        <source>FAQO Core client</source>
+        <translation>FAQO Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to ALQO network</source>
-        <translation><numerusform>%n actieve verbindingen met het ALQO netwerk</numerusform><numerusform>%n actieve connectie(s) naar ALQO netwerk</numerusform></translation>
+        <source>%n active connection(s) to FAQO network</source>
+        <translation><numerusform>%n actieve verbindingen met het FAQO netwerk</numerusform><numerusform>%n actieve connectie(s) naar FAQO netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (alqo.conf).</source>
-        <translation>Niet alle transacties zullen worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (alqo.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (faqo.conf).</source>
+        <translation>Niet alle transacties zullen worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (faqo.conf).</translation>
     </message>
 </context>
 <context>
@@ -1185,8 +1185,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzend adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ALQO address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig ALQO adres.</translation>
+        <source>The entered address "%1" is not a valid FAQO address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig FAQO adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1231,16 +1231,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About ALQO Core</source>
-        <translation>Over ALQO Core</translation>
+        <source>About FAQO Core</source>
+        <translation>Over FAQO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1286,16 +1286,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to ALQO Core.</source>
-        <translation>Welkom bij ALQO Core.</translation>
+        <source>Welcome to FAQO Core.</source>
+        <translation>Welkom bij FAQO Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ALQO Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar ALQO Core zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where FAQO Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar FAQO Core zijn data opslaat.</translation>
     </message>
     <message>
-        <source>ALQO Core will download and store a copy of the ALQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ALQO Core zal een kopie van de ALQO blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>FAQO Core will download and store a copy of the FAQO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FAQO Core zal een kopie van de FAQO blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1306,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,12 +1448,12 @@ MultiSend: %1</translation>
         <translation>Vul het adres in om naar te verzenden</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ALQO addresses after it matures.
-To Add: enter percentage to give and ALQO address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FAQO addresses after it matures.
+To Add: enter percentage to give and FAQO address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere ALQO adressen nadat het volwassen is. 
-Toevoegen: voer het te geven percentage in en ALQO adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere FAQO adressen nadat het volwassen is. 
+Toevoegen: voer het te geven percentage in en FAQO adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
     </message>
@@ -1812,16 +1812,16 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Verduistering configuratie</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van ALQO te openen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FAQO's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van FAQO te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van ALQO te openen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FAQO's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van FAQO te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ALQO's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van ALQO te openen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FAQO's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van FAQO te openen.</translation>
     </message>
 </context>
 <context>
@@ -1882,8 +1882,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the ALQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de ALQO client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the FAQO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de FAQO client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1902,12 +1902,12 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start ALQO after logging in to the system.</source>
-        <translation>ALQO automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start FAQO after logging in to the system.</source>
+        <translation>FAQO automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start ALQO on system login</source>
-        <translation>&amp;ALQO starten bij systeemlogin</translation>
+        <source>&amp;Start FAQO on system login</source>
+        <translation>&amp;FAQO starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1934,14 +1934,14 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ALQO.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van ALQO.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FAQO.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van FAQO.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/alqo-project/alqo-project-translations</source>
+https://www.transifex.com/faqo-project/faqo-project-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/alqo-project/alqo-project-translations</translation>
+https://www.transifex.com/faqo-project/faqo-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1976,8 +1976,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations</translation>
         <translation>Inzet splitdrempel:</translation>
     </message>
     <message>
-        <source>Connect to the ALQO network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het ALQO netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the FAQO network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het FAQO netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2155,8 +2155,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations</translation>
         <translation>Huidige vergrendelde balans in alleen-lezen-adressen</translation>
     </message>
     <message>
-        <source>Your current ALQO balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige ALQO-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
+        <source>Your current FAQO balance, unconfirmed and immature transactions included</source>
+        <translation>Uw huidige FAQO-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
         <source>zXLQ Balance</source>
@@ -2175,8 +2175,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het ALQO netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FAQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het FAQO netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2255,14 +2255,14 @@ Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde
         <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in alqo.conf.</source>
-        <translation>Om AutoMint uit te schakelen, voeg je 'enablezeromint=0' toe aan alqo.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in faqo.conf.</source>
+        <translation>Om AutoMint uit te schakelen, voeg je 'enablezeromint=0' toe aan faqo.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in alqo.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf</source>
         <translation>AutoMint is momenteel uitgeschakeld.
-Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint=1' in alqo.conf</translation>
+Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint=1' in faqo.conf</translation>
     </message>
 </context>
 <context>
@@ -2288,12 +2288,12 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>Cannot start alqo: click-to-pay handler</source>
-        <translation>Kan alqo niet starten: click-to-pay handler</translation>
+        <source>Cannot start faqo: click-to-pay handler</source>
+        <translation>Kan faqo niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid ALQO address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig ALQO adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid FAQO address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig FAQO adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2378,8 +2378,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Zerocoin Acties:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ALQO network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het ALQO netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FAQO network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het FAQO netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2502,8 +2502,8 @@ zXlq zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 m
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The ALQO address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het ALQO adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <source>The FAQO address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Het FAQO adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2579,8 +2579,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <source>Show the current status of automatic zXLQ minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to alqo.conf
-- disable: add 'enablezeromint=0' to alqo.conf
+- enable: add 'enablezeromint=1' to faqo.conf
+- disable: add 'enablezeromint=0' to faqo.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zXLQ
@@ -2589,8 +2589,8 @@ To change the percentage (no restart required):
         <translation>Toon de huidige status van automatische zXLQ-markering.
 
 Om de status te wijzigen (opnieuw opstarten vereist): 
-- enable: voeg 'enablezeromint = 1' toe aan alqo.conf
-- uitschakelen: voeg 'enablezeromint = 0' toe aan alqo.conf
+- enable: voeg 'enablezeromint = 1' toe aan faqo.conf
+- uitschakelen: voeg 'enablezeromint = 0' toe aan faqo.conf
 
 Om het percentage te wijzigen (geen herstart vereist): 
 - menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zXLQ
@@ -2929,8 +2929,8 @@ Maximaal toegestaan:</translation>
         <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
     </message>
     <message>
-        <source>Invalid ALQO Address</source>
-        <translation>Ongeldig ALQO addres</translation>
+        <source>Invalid FAQO Address</source>
+        <translation>Ongeldig FAQO addres</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3031,8 +3031,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a ALQO address (e.g. %1)</source>
-        <translation>Voer een ALQO adres in (b.v. %1)</translation>
+        <source>Enter a FAQO address (e.g. %1)</source>
+        <translation>Voer een FAQO adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3169,8 +3169,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the ALQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het ALQO debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the FAQO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het FAQO debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3385,8 +3385,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the ALQO RPC console.</source>
-        <translation>Welkom bij de ALQO RPC console.</translation>
+        <source>Welcome to the FAQO RPC console.</source>
+        <translation>Welkom bij de FAQO RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3512,16 +3512,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ALQO network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het ALQO netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FAQO network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het FAQO netwerk.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ontvangen</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ALQO network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het ALQO netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FAQO network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het FAQO netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3813,8 +3813,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Als de aangepaste vergoeding is ingesteld op 1000 uXLQs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uXLQ's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uXLQ's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ALQO transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar ALQO transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FAQO transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar FAQO transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3909,8 +3909,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
     </message>
     <message>
-        <source>Warning: Invalid ALQO address</source>
-        <translation>Waarschuwing: Ongeldig ALQO adres</translation>
+        <source>Warning: Invalid FAQO address</source>
+        <translation>Waarschuwing: Ongeldig FAQO adres</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4012,8 +4012,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The ALQO address to send the payment to</source>
-        <translation>Het ALQO adres om de betaling naar te verzenden</translation>
+        <source>The FAQO address to send the payment to</source>
+        <translation>Het FAQO adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4052,8 +4052,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the ALQO: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ALQO network.</source>
-        <translation>Een bericht dat is gehecht aan de ALQO: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het ALQO netwerk.</translation>
+        <source>A message that was attached to the FAQO: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FAQO network.</source>
+        <translation>Een bericht dat is gehecht aan de FAQO: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het FAQO netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4079,8 +4079,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ALQO Core is shutting down...</source>
-        <translation>ALQO Core is aan het afsluiten...</translation>
+        <source>FAQO Core is shutting down...</source>
+        <translation>FAQO Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4102,8 +4102,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The ALQO address to sign the message with</source>
-        <translation>Het ALQO adres om het bericht met te ondertekenen</translation>
+        <source>The FAQO address to sign the message with</source>
+        <translation>Het FAQO adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4134,16 +4134,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het ALQO adres bezit</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het FAQO adres bezit</translation>
     </message>
     <message>
-        <source>The ALQO address the message was signed with</source>
-        <translation>Het ALQO adres waarmee het bericht was ondertekend</translation>
+        <source>The FAQO address the message was signed with</source>
+        <translation>Het FAQO adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ALQO adres</translation>
+        <source>Verify the message to ensure it was signed with the specified FAQO address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde FAQO adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4229,8 +4229,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Kern</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4245,8 +4245,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The ALQO Core developers</source>
-        <translation>De ALQO Kernontwikkelaars</translation>
+        <source>The FAQO Core developers</source>
+        <translation>De FAQO Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4884,7 +4884,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
 </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = houd tx meta data, bijvoorbeeld account eigenaar en betalingsverzoek informatie, 2 = drop tx meta data)</translation>
@@ -4910,8 +4910,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. ALQO Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. ALQO Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. FAQO Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. FAQO Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5086,8 +5086,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. ALQO Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. ALQO Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. FAQO Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. FAQO Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5114,8 +5114,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ALQO Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt ALQO Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong FAQO Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt FAQO Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5266,8 +5266,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The ALQO Core Developers</source>
-        <translation>Copyright (C) 2015-%i The ALQO Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The FAQO Core Developers</source>
+        <translation>Copyright (C) 2015-%i The FAQO Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5354,8 +5354,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of ALQO Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van ALQO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FAQO Core</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van FAQO Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5470,8 +5470,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. ALQO Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. ALQO Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. FAQO Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. FAQO Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5582,8 +5582,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 </translation>
     </message>
     <message>
-        <source>Disable all ALQO specific functionality (Masternodes, Zerocoin, HyperSend, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle specifieke ALQO functionaliteit uit (Masternodes, Zerocoin, HyperSend, Budgeting) (0-1, standaard: %u)</translation>
+        <source>Disable all FAQO specific functionality (Masternodes, Zerocoin, HyperSend, Budgeting) (0-1, default: %u)</source>
+        <translation>Schakel alle specifieke FAQO functionaliteit uit (Masternodes, Zerocoin, HyperSend, Budgeting) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable HyperSend, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6294,8 +6294,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Portemonnee is vergrendeld.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart ALQO Core to complete</source>
-        <translation>Wallet moest worden herschreven: start ALQO Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart FAQO Core to complete</source>
+        <translation>Wallet moest worden herschreven: start FAQO Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

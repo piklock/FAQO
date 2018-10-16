@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ALQO"
-            VALUE "FileDescription",    "alqod (OSS daemon/client for ALQO)"
+            VALUE "CompanyName",        "FAQO"
+            VALUE "FileDescription",    "faqod (OSS daemon/client for FAQO)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "alqod"
+            VALUE "InternalName",       "faqod"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "alqod.exe"
-            VALUE "ProductName",        "alqod"
+            VALUE "OriginalFilename",   "faqod.exe"
+            VALUE "ProductName",        "faqod"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

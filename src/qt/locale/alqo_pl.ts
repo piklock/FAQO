@@ -509,16 +509,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>&amp;Rdzeń ALQO</translation>
+        <source>FAQO Core</source>
+        <translation>&amp;Rdzeń FAQO</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>Wyślij monety do adresu ALQO</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>Wyślij monety do adresu FAQO</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i alqo:URI)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i faqo:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -529,24 +529,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
+        <source>&amp;About FAQO Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
+        <source>Show information about FAQO Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>Modyfikuj opcje konfiguracji ALQO</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>Modyfikuj opcje konfiguracji FAQO</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami ALQO, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami FAQO, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ALQO</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu FAQO</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -573,8 +573,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a ALQO: URI or payment request</source>
-        <translation>Otwórz ALQO: URI i żądanie zapłaty</translation>
+        <source>Open a FAQO: URI or payment request</source>
+        <translation>Otwórz FAQO: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -585,12 +585,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia ALQO, aby dostać listę możliwych opcji ALQO command-line</translation>
+        <source>Show the FAQO Core help message to get a list with possible FAQO command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia FAQO, aby dostać listę możliwych opcji FAQO command-line</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>Rdzeń ALQO klient</translation>
+        <source>FAQO Core client</source>
+        <translation>Rdzeń FAQO klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -899,8 +899,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>&amp;Rdzeń ALQO</translation>
+        <source>FAQO Core</source>
+        <translation>&amp;Rdzeń FAQO</translation>
     </message>
     </context>
 <context>
@@ -914,8 +914,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>&amp;Rdzeń ALQO</translation>
+        <source>FAQO Core</source>
+        <translation>&amp;Rdzeń FAQO</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1190,12 +1190,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start ALQO after logging in to the system.</source>
-        <translation>Automatycznie uruchom ALQO po zalogowaniu do systemu</translation>
+        <source>Automatically start FAQO after logging in to the system.</source>
+        <translation>Automatycznie uruchom FAQO po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start ALQO on system login</source>
-        <translation>&amp;Uruchom ALQO podczas logowania do systemu</translation>
+        <source>&amp;Start FAQO on system login</source>
+        <translation>&amp;Uruchom FAQO podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1214,18 +1214,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ALQO.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ALQO</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FAQO.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie FAQO</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/alqo-project/alqo-project-translations</source>
+https://www.transifex.com/faqo-project/faqo-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/alqo-project/alqo-project-translations </translation>
+https://www.transifex.com/faqo-project/faqo-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the ALQO network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią ALQO poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the FAQO network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią FAQO poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1463,8 +1463,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations </translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a ALQO address (e.g. %1)</source>
-        <translation>Wprowadź adres ALQO (np. %1)</translation>
+        <source>Enter a FAQO address (e.g. %1)</source>
+        <translation>Wprowadź adres FAQO (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1894,8 +1894,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations </translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ALQO jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres FAQO jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1929,8 +1929,8 @@ https://www.transifex.com/alqo-project/alqo-project-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>&amp;Rdzeń ALQO</translation>
+        <source>FAQO Core</source>
+        <translation>&amp;Rdzeń FAQO</translation>
     </message>
     </context>
 <context>
@@ -2028,7 +2028,7 @@ https://www.transifex.com/alqo-project/alqo-project-translations </translation>
     </message>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

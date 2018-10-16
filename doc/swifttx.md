@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via HyperSend
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via HyperSend
 
-This mechanism has been integrated into Bitcore-Node-ALQO which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/ALQO-Project/insight-api-alqo#web-socket-api](https://github.com/ALQO-Project/insight-api-alqo#web-socket-api) 
-* API: [https://github.com/ALQO-Project/insight-api-alqo#hypersend-transactions](https://github.com/ALQO-Project/insight-api-alqo#hypersend-transactions) 
+This mechanism has been integrated into Bitcore-Node-FAQO which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/FAQO-Project/insight-api-faqo#web-socket-api](https://github.com/FAQO-Project/insight-api-faqo#web-socket-api) 
+* API: [https://github.com/FAQO-Project/insight-api-faqo#hypersend-transactions](https://github.com/FAQO-Project/insight-api-faqo#hypersend-transactions) 
 
 ####Command line option
 
@@ -27,13 +27,13 @@ When a wallet HyperSend transaction is successfully locked a shell command provi
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the ALQO Core daemon will launch using the following constant:
+By default, the FAQO Core daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_HYPERSEND_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the ALQO Core daemon:
+This value can be overridden by passing the following argument to the FAQO Core daemon:
 
 ```
 -hypersenddepth=<n>

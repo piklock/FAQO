@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The ALQO & Bitfineon developers
+// Copyright (c) 2015-2017 The PIVX developers// Copyright (c) 2017-2018 The FAQO & Bitfineon developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/alqo-config.h"
+#include "config/faqo-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -89,10 +89,10 @@ void OptionsModel::Init()
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    if (!settings.contains("nAnonymizeALQOAmount"))
-        settings.setValue("nAnonymizeALQOAmount", 1000);
+    if (!settings.contains("nAnonymizeFAQOAmount"))
+        settings.setValue("nAnonymizeFAQOAmount", 1000);
 
-    nAnonymizeALQOAmount = settings.value("nAnonymizeALQOAmount").toLongLong();
+    nAnonymizeFAQOAmount = settings.value("nAnonymizeFAQOAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -166,8 +166,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeALQOAmount"))
-        SoftSetArg("-anonymizealqoamount", settings.value("nAnonymizeALQOAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeFAQOAmount"))
+        SoftSetArg("-anonymizefaqoamount", settings.value("nAnonymizeFAQOAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -178,7 +178,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in alqo.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in faqo.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -258,8 +258,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeALQOAmount:
-            return QVariant(nAnonymizeALQOAmount);
+        case AnonymizeFAQOAmount:
+            return QVariant(nAnonymizeFAQOAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -388,10 +388,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit hideZeroBalancesChanged(fHideZeroBalances);
             break;
 
-        case AnonymizeALQOAmount:
-            nAnonymizeALQOAmount = value.toInt();
-            settings.setValue("nAnonymizeALQOAmount", nAnonymizeALQOAmount);
-            emit anonymizeALQOAmountChanged(nAnonymizeALQOAmount);
+        case AnonymizeFAQOAmount:
+            nAnonymizeFAQOAmount = value.toInt();
+            settings.setValue("nAnonymizeFAQOAmount", nAnonymizeFAQOAmount);
+            emit anonymizeFAQOAmountChanged(nAnonymizeFAQOAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

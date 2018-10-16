@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出ALQO幣的位址</translation>
+        <translation>選擇要匯出FAQO幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收ALQO幣的位址</translation>
+        <translation>選擇要接收FAQO幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 ALQO 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your FAQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 FAQO 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 ALQO 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your FAQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 FAQO 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>ALQO 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 XLQ 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 XLQ 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -557,16 +557,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>送出錢幣到 ALQO 地址</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>送出錢幣到 FAQO 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 alqo 位址)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 faqo 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -577,24 +577,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
-        <translation>&amp;關於 ALQO Core</translation>
+        <source>&amp;About FAQO Core</source>
+        <translation>&amp;關於 FAQO Core</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
-        <translation>顯示 ALQO Core 相關資訊</translation>
+        <source>Show information about FAQO Core</source>
+        <translation>顯示 FAQO Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>修改 ALQO 設定</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>修改 FAQO 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>使用你的 ALQO 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>使用你的 FAQO 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>驗證訊息簽章與 ALQO 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>驗證訊息簽章與 FAQO 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -625,8 +625,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a ALQO: URI or payment request</source>
-        <translation>打開ALQO: 位址或付款請求 </translation>
+        <source>Open a FAQO: URI or payment request</source>
+        <translation>打開FAQO: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -637,12 +637,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the ALQO Core help message to get a list with possible ALQO command-line options</source>
-        <translation>顯示 ALQO Core 幫助訊息以取得 ALQO 命令列表選項</translation>
+        <source>Show the FAQO Core help message to get a list with possible FAQO command-line options</source>
+        <translation>顯示 FAQO Core 幫助訊息以取得 FAQO 命令列表選項</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>ALQO Core 客戶端</translation>
+        <source>FAQO Core client</source>
+        <translation>FAQO Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -671,15 +671,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
@@ -822,8 +822,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ALQO address to sign the message with</source>
-        <translation>對訊息簽名的 ALQO 位址</translation>
+        <source>The FAQO address to sign the message with</source>
+        <translation>對訊息簽名的 FAQO 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -846,16 +846,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>使用簽章來證明你是該  ALQO 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>使用簽章來證明你是該  FAQO 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The ALQO address the message was signed with</source>
-        <translation>此訊息之 ALQO 位址已簽章於</translation>
+        <source>The FAQO address the message was signed with</source>
+        <translation>此訊息之 FAQO 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
-        <translation>驗證訊息以確保該  ALQO 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified FAQO address</source>
+        <translation>驗證訊息以確保該  FAQO 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -893,8 +893,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
@@ -960,6 +960,6 @@
     <name>ZXlqControlDialog</name>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     </context>
 </TS>

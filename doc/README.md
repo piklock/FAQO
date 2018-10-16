@@ -1,40 +1,40 @@
-ALQO Core
+FAQO Core
 =====================
 
 Setup
 ---------------------
-[ALQO Core](http://alqo.org/wallet) is the original ALQO client and it builds the backbone of the network. However, it downloads and stores the entire history of ALQO transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[FAQO Core](http://faqo.org/wallet) is the original FAQO client and it builds the backbone of the network. However, it downloads and stores the entire history of FAQO transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run ALQO on your native platform.
+The following are some helpful notes on how to run FAQO on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/alqo-qt (GUI, 32-bit) or bin/32/alqod (headless, 32-bit)
-- bin/64/alqo-qt (GUI, 64-bit) or bin/64/alqod (headless, 64-bit)
+- bin/32/faqo-qt (GUI, 32-bit) or bin/32/faqod (headless, 32-bit)
+- bin/64/faqo-qt (GUI, 64-bit) or bin/64/faqod (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run alqo-qt.exe.
+Unpack the files into a directory, and then run faqo-qt.exe.
 
 ### OSX
 
-Drag ALQO-Qt to your applications folder, and then run ALQO-Qt.
+Drag FAQO-Qt to your applications folder, and then run FAQO-Qt.
 
 ### Need Help?
 
-* See the documentation at the [ALQO Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [FAQO Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ALQO Forum](http://forum.alqo.org/).
-* Join our Discord server [Discord Server](https://discord.alqo.org)
-* Join one of our Slack groups [ALQO Slack Groups](https://alqo.org/slack-logins/) (Main community is replaced by Discord).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [FAQO Forum](http://forum.faqo.org/).
+* Join our Discord server [Discord Server](https://discord.faqo.org)
+* Join one of our Slack groups [FAQO Slack Groups](https://faqo.org/slack-logins/) (Main community is replaced by Discord).
 
 Building
 ---------------------
-The following are developer notes on how to build ALQO on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build FAQO on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -42,7 +42,7 @@ The following are developer notes on how to build ALQO on your native platform. 
 
 Development
 ---------------------
-The ALQO repo's [root README](https://github.com/ALQO-Project/ALQO/blob/master/README.md) contains relevant information on the development process and automated testing.
+The FAQO repo's [root README](https://github.com/FAQO-Project/FAQO/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,8 +56,8 @@ The ALQO repo's [root README](https://github.com/ALQO-Project/ALQO/blob/master/R
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ALQO](http://forum.alqo.org/) forum.
-* Join the [ALQO-Dev](https://alqo-dev.slack.com/) Slack group ([Sign-Up](https://alqo-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [FAQO](http://forum.faqo.org/) forum.
+* Join the [FAQO-Dev](https://faqo-dev.slack.com/) Slack group ([Sign-Up](https://faqo-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

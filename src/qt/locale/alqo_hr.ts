@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše ALQO adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your FAQO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše FAQO adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your ALQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše ALQO adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your FAQO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše FAQO adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>ALQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>ALQO se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše XLQ od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše XLQ od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -601,16 +601,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
-        <source>Send coins to a ALQO address</source>
-        <translation>Pošaljite kovanice na ALQO adresu</translation>
+        <source>Send coins to a FAQO address</source>
+        <translation>Pošaljite kovanice na FAQO adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and alqo: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i alqo: URI)</translation>
+        <source>Request payments (generates QR codes and faqo: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i faqo: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About ALQO Core</source>
-        <translation>&amp; O ALQO Coreu</translation>
+        <source>&amp;About FAQO Core</source>
+        <translation>&amp; O FAQO Coreu</translation>
     </message>
     <message>
-        <source>Show information about ALQO Core</source>
-        <translation>Prikaz informacija o ALQO Coreu</translation>
+        <source>Show information about FAQO Core</source>
+        <translation>Prikaz informacija o FAQO Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for ALQO</source>
-        <translation>Izmijenite opcije konfiguracije za ALQO</translation>
+        <source>Modify configuration options for FAQO</source>
+        <translation>Izmijenite opcije konfiguracije za FAQO</translation>
     </message>
     <message>
-        <source>Sign messages with your ALQO addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim ALQO adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your FAQO addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim FAQO adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ALQO addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim ALQO adresama</translation>
+        <source>Verify messages to ensure they were signed with specified FAQO addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim FAQO adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@
         <translation>Šifriranje i dešifriranje privatnih ključeva pomoću zaporke</translation>
     </message>
     <message>
-        <source>ALQO Core client</source>
-        <translation>ALQO Core klijent</translation>
+        <source>FAQO Core client</source>
+        <translation>FAQO Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -751,15 +751,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1111,15 +1111,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ALQO Core is shutting down...</source>
-        <translation>ALQO Core se gasi...</translation>
+        <source>FAQO Core is shutting down...</source>
+        <translation>FAQO Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ALQO address to sign the message with</source>
-        <translation>ALQO adresa za potpisivanje poruke s</translation>
+        <source>The FAQO address to sign the message with</source>
+        <translation>FAQO adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1142,16 +1142,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ALQO address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove ALQO adrese</translation>
+        <source>Sign the message to prove you own this FAQO address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove FAQO adrese</translation>
     </message>
     <message>
-        <source>The ALQO address the message was signed with</source>
-        <translation>ALQO adresa s kojom je potpisana poruka</translation>
+        <source>The FAQO address the message was signed with</source>
+        <translation>FAQO adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ALQO address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom ALQO adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified FAQO address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom FAQO adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1197,8 +1197,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ALQO Core</source>
-        <translation>ALQO Core</translation>
+        <source>FAQO Core</source>
+        <translation>FAQO Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1352,7 +1352,7 @@
     </message>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>
