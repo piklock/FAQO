@@ -177,9 +177,9 @@ BITCOIN_CORE_H = \
   wallet.h \
   wallet_ismine.h \
   walletdb.h \
-  zXLQchain.h \
-  zXLQtracker.h \
-  zXLQwallet.h \
+  zFFQchain.h \
+  zFFQtracker.h \
+  zFFQwallet.h \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
@@ -227,7 +227,7 @@ libbitcoin_server_a_SOURCES = \
   txdb.cpp \
   txmempool.cpp \
   validationinterface.cpp \
-  zXLQchain.cpp \
+  zFFQchain.cpp \
   $(BITCOIN_CORE_H)
 
 if ENABLE_ZMQ
@@ -267,8 +267,8 @@ libbitcoin_wallet_a_SOURCES = \
   wallet.cpp \
   wallet_ismine.cpp \
   walletdb.cpp \
-  zXLQwallet.cpp \
-  zXLQtracker.cpp \
+  zFFQwallet.cpp \
+  zFFQtracker.cpp \
   stakeinput.cpp \
   $(BITCOIN_CORE_H)
 

@@ -17,7 +17,7 @@
 #include "utilmoneystr.h"
 #include "wallet.h"
 #include "walletdb.h"
-#include "zXLQchain.h"
+#include "zFFQchain.h"
 
 #include <stdint.h>
 
@@ -363,7 +363,7 @@ UniValue sendtoaddress(const UniValue& params, bool fHelp)
 
             "\nArguments:\n"
             "1. \"faqoaddress\"  (string, required) The faqo address to send to.\n"
-            "2. \"amount\"      (numeric, required) The amount in XLQ to send. eg 0.1\n"
+            "2. \"amount\"      (numeric, required) The amount in FFQ to send. eg 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
             "4. \"comment-to\"  (string, optional) A comment to store the name of the person or organization \n"
@@ -411,7 +411,7 @@ UniValue sendtoaddressix(const UniValue& params, bool fHelp)
 
             "\nArguments:\n"
             "1. \"faqoaddress\"  (string, required) The faqo address to send to.\n"
-            "2. \"amount\"      (numeric, required) The amount in XLQ to send. eg 0.1\n"
+            "2. \"amount\"      (numeric, required) The amount in FFQ to send. eg 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
             "4. \"comment-to\"  (string, optional) A comment to store the name of the person or organization \n"
@@ -463,7 +463,7 @@ UniValue listaddressgroupings(const UniValue& params, bool fHelp)
             "  [\n"
             "    [\n"
             "      \"faqoaddress\",     (string) The faqo address\n"
-            "      amount,                 (numeric) The amount in XLQ\n"
+            "      amount,                 (numeric) The amount in FFQ\n"
             "      \"account\"             (string, optional) The account\n"
             "    ]\n"
             "    ,...\n"
@@ -562,7 +562,7 @@ UniValue getreceivedbyaddress(const UniValue& params, bool fHelp)
             "2. minconf             (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
 
             "\nResult:\n"
-            "amount   (numeric) The total amount in XLQ received at this address.\n"
+            "amount   (numeric) The total amount in FFQ received at this address.\n"
 
             "\nExamples:\n"
             "\nThe amount from transactions with at least 1 confirmation\n" +
@@ -618,7 +618,7 @@ UniValue getreceivedbyaccount(const UniValue& params, bool fHelp)
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
 
             "\nResult:\n"
-            "amount              (numeric) The total amount in XLQ received for this account.\n"
+            "amount              (numeric) The total amount in FFQ received for this account.\n"
 
             "\nExamples:\n"
             "\nAmount received by the default account with at least 1 confirmation\n" +
@@ -707,7 +707,7 @@ UniValue getbalance(const UniValue& params, bool fHelp)
             "3. includeWatchonly (bool, optional, default=false) Also include balance in watchonly addresses (see 'importaddress')\n"
 
             "\nResult:\n"
-            "amount              (numeric) The total amount in XLQ received for this account.\n"
+            "amount              (numeric) The total amount in FFQ received for this account.\n"
 
             "\nExamples:\n"
             "\nThe total amount in the server across all accounts\n" +
@@ -797,9 +797,9 @@ UniValue movecmd(const UniValue& params, bool fHelp)
             "true|false           (boolean) true if successfull.\n"
 
             "\nExamples:\n"
-            "\nMove 0.01 XLQ from the default account to the account named tabby\n" +
+            "\nMove 0.01 FFQ from the default account to the account named tabby\n" +
             HelpExampleCli("move", "\"\" \"tabby\" 0.01") +
-            "\nMove 0.01 XLQ from timotei to akiko with a comment and funds have 6 confirmations\n" +
+            "\nMove 0.01 FFQ from timotei to akiko with a comment and funds have 6 confirmations\n" +
             HelpExampleCli("move", "\"timotei\" \"akiko\" 0.01 6 \"happy birthday!\"") +
             "\nAs a json rpc call\n" +
             HelpExampleRpc("move", "\"timotei\", \"akiko\", 0.01, 6, \"happy birthday!\""));
@@ -861,7 +861,7 @@ UniValue sendfrom(const UniValue& params, bool fHelp)
             "\nArguments:\n"
             "1. \"fromaccount\"       (string, required) The name of the account to send funds from. May be the default account using \"\".\n"
             "2. \"tofaqoaddress\"  (string, required) The faqo address to send funds to.\n"
-            "3. amount                (numeric, required) The amount in XLQ. (transaction fee is added on top).\n"
+            "3. amount                (numeric, required) The amount in FFQ. (transaction fee is added on top).\n"
             "4. minconf               (numeric, optional, default=1) Only use funds with at least this many confirmations.\n"
             "5. \"comment\"           (string, optional) A comment used to store what the transaction is for. \n"
             "                                     This is not part of the transaction, just kept in your wallet.\n"
@@ -873,7 +873,7 @@ UniValue sendfrom(const UniValue& params, bool fHelp)
             "\"transactionid\"        (string) The transaction id.\n"
 
             "\nExamples:\n"
-            "\nSend 0.01 XLQ from the default account to the address, must have at least 1 confirmation\n" +
+            "\nSend 0.01 FFQ from the default account to the address, must have at least 1 confirmation\n" +
             HelpExampleCli("sendfrom", "\"\" \"DMJRSsuU9zfyrvxVaAEFQqK4MxZg6vgeS6\" 0.01") +
             "\nSend 0.01 from the tabby account to the given address, funds must have at least 6 confirmations\n" +
             HelpExampleCli("sendfrom", "\"tabby\" \"DMJRSsuU9zfyrvxVaAEFQqK4MxZg6vgeS6\" 0.01 6 \"donation\" \"seans outpost\"") +
@@ -923,7 +923,7 @@ UniValue sendmany(const UniValue& params, bool fHelp)
             "1. \"fromaccount\"         (string, required) The account to send the funds from, can be \"\" for the default account\n"
             "2. \"amounts\"             (string, required) A json object with addresses and amounts\n"
             "    {\n"
-            "      \"address\":amount   (numeric) The faqo address is the key, the numeric amount in XLQ is the value\n"
+            "      \"address\":amount   (numeric) The faqo address is the key, the numeric amount in FFQ is the value\n"
             "      ,...\n"
             "    }\n"
             "3. minconf                 (numeric, optional, default=1) Only use the balance confirmed at least this many times.\n"
@@ -1189,7 +1189,7 @@ UniValue listreceivedbyaddress(const UniValue& params, bool fHelp)
             "    \"involvesWatchonly\" : \"true\",    (bool) Only returned if imported addresses were involved in transaction\n"
             "    \"address\" : \"receivingaddress\",  (string) The receiving address\n"
             "    \"account\" : \"accountname\",       (string) The account of the receiving address. The default account is \"\".\n"
-            "    \"amount\" : x.xxx,                  (numeric) The total amount in XLQ received by the address\n"
+            "    \"amount\" : x.xxx,                  (numeric) The total amount in FFQ received by the address\n"
             "    \"confirmations\" : n                (numeric) The number of confirmations of the most recent transaction included\n"
             "    \"bcconfirmations\" : n              (numeric) The number of blockchain confirmations of the most recent transaction included\n"
             "  }\n"
@@ -1347,11 +1347,11 @@ UniValue listtransactions(const UniValue& params, bool fHelp)
             "                                                transaction between accounts, and not associated with an address,\n"
             "                                                transaction id or block. 'send' and 'receive' transactions are \n"
             "                                                associated with an address, transaction id and block details\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in XLQ. This is negative for the 'send' category, and for the\n"
+            "    \"amount\": x.xxx,          (numeric) The amount in FFQ. This is negative for the 'send' category, and for the\n"
             "                                         'move' category for moves outbound. It is positive for the 'receive' category,\n"
             "                                         and for the 'move' category for inbound funds.\n"
             "    \"vout\" : n,               (numeric) the vout value\n"
-            "    \"fee\": x.xxx,             (numeric) The amount of the fee in XLQ. This is negative and only available for the \n"
+            "    \"fee\": x.xxx,             (numeric) The amount of the fee in FFQ. This is negative and only available for the \n"
             "                                         'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and \n"
             "                                         'receive' category of transactions.\n"
@@ -1538,10 +1538,10 @@ UniValue listsinceblock(const UniValue& params, bool fHelp)
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. Will be \"\" for the default account.\n"
             "    \"address\":\"faqoaddress\",    (string) The faqo address of the transaction. Not present for move transactions (category = move).\n"
             "    \"category\":\"send|receive\",     (string) The transaction category. 'send' has negative amounts, 'receive' has positive amounts.\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in XLQ. This is negative for the 'send' category, and for the 'move' category for moves \n"
+            "    \"amount\": x.xxx,          (numeric) The amount in FFQ. This is negative for the 'send' category, and for the 'move' category for moves \n"
             "                                          outbound. It is positive for the 'receive' category, and for the 'move' category for inbound funds.\n"
             "    \"vout\" : n,               (numeric) the vout value\n"
-            "    \"fee\": x.xxx,             (numeric) The amount of the fee in XLQ. This is negative and only available for the 'send' category of transactions.\n"
+            "    \"fee\": x.xxx,             (numeric) The amount of the fee in FFQ. This is negative and only available for the 'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and 'receive' category of transactions.\n"
             "    \"bcconfirmations\" : n,    (numeric) The number of blockchain confirmations for the transaction. Available for 'send' and 'receive' category of transactions.\n"
             "    \"blockhash\": \"hashvalue\",     (string) The block hash containing the transaction. Available for 'send' and 'receive' category of transactions.\n"
@@ -1621,7 +1621,7 @@ UniValue gettransaction(const UniValue& params, bool fHelp)
 
             "\nResult:\n"
             "{\n"
-            "  \"amount\" : x.xxx,        (numeric) The transaction amount in XLQ\n"
+            "  \"amount\" : x.xxx,        (numeric) The transaction amount in FFQ\n"
             "  \"confirmations\" : n,     (numeric) The number of confirmations\n"
             "  \"bcconfirmations\" : n,   (numeric) The number of blockchain confirmations\n"
             "  \"blockhash\" : \"hash\",  (string) The block hash\n"
@@ -1635,7 +1635,7 @@ UniValue gettransaction(const UniValue& params, bool fHelp)
             "      \"account\" : \"accountname\",  (string) The account name involved in the transaction, can be \"\" for the default account.\n"
             "      \"address\" : \"faqoaddress\",   (string) The faqo address involved in the transaction\n"
             "      \"category\" : \"send|receive\",    (string) The category, either 'send' or 'receive'\n"
-            "      \"amount\" : x.xxx                  (numeric) The amount in XLQ\n"
+            "      \"amount\" : x.xxx                  (numeric) The amount in FFQ\n"
             "      \"vout\" : n,                       (numeric) the vout value\n"
             "    }\n"
             "    ,...\n"
@@ -1756,7 +1756,7 @@ UniValue walletpassphrase(const UniValue& params, bool fHelp)
         throw runtime_error(
             "walletpassphrase \"passphrase\" timeout ( anonymizeonly )\n"
             "\nStores the wallet decryption key in memory for 'timeout' seconds.\n"
-            "This is needed prior to performing transactions related to private keys such as sending XLQs\n"
+            "This is needed prior to performing transactions related to private keys such as sending FFQs\n"
 
             "\nArguments:\n"
             "1. \"passphrase\"     (string, required) The wallet passphrase\n"
@@ -1913,7 +1913,7 @@ UniValue encryptwallet(const UniValue& params, bool fHelp)
             "\nExamples:\n"
             "\nEncrypt you wallet\n" +
             HelpExampleCli("encryptwallet", "\"my pass phrase\"") +
-            "\nNow set the passphrase to use the wallet, such as for signing or sending XLQs\n" +
+            "\nNow set the passphrase to use the wallet, such as for signing or sending FFQs\n" +
             HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
             "\nNow we can so something like sign\n" +
             HelpExampleCli("signmessage", "\"faqoaddress\" \"test message\"") +
@@ -1957,7 +1957,7 @@ UniValue lockunspent(const UniValue& params, bool fHelp)
             "lockunspent unlock [{\"txid\":\"txid\",\"vout\":n},...]\n"
             "\nUpdates list of temporarily unspendable outputs.\n"
             "Temporarily lock (unlock=false) or unlock (unlock=true) specified transaction outputs.\n"
-            "A locked transaction output will not be chosen by automatic coin selection, when spending XLQs.\n"
+            "A locked transaction output will not be chosen by automatic coin selection, when spending FFQs.\n"
             "Locks are stored in memory only. Nodes start with zero locked outputs, and the locked output list\n"
             "is always cleared (by virtue of process exit) when a node stops or fails.\n"
             "Also see the listunspent call\n"
@@ -2086,7 +2086,7 @@ UniValue settxfee(const UniValue& params, bool fHelp)
             "\nSet the transaction fee per kB.\n"
 
             "\nArguments:\n"
-            "1. amount         (numeric, required) The transaction fee in XLQ/kB rounded to the nearest 0.00000001\n"
+            "1. amount         (numeric, required) The transaction fee in FFQ/kB rounded to the nearest 0.00000001\n"
 
             "\nResult\n"
             "true|false        (boolean) Returns true if successful\n"
@@ -2114,7 +2114,7 @@ UniValue getwalletinfo(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
-            "  \"balance\": xxxxxxx,         (numeric) the total XLQ balance of the wallet\n"
+            "  \"balance\": xxxxxxx,         (numeric) the total FFQ balance of the wallet\n"
             "  \"txcount\": xxxxxxx,         (numeric) the total number of transactions in the wallet\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -2482,7 +2482,7 @@ UniValue multisend(const UniValue& params, bool fHelp)
     string strAddress = params[0].get_str();
     CBitcoinAddress address(strAddress);
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid XLQ address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid FFQ address");
     if (boost::lexical_cast<int>(params[1].get_str()) < 0)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, expected valid percentage");
     if (pwalletMain->IsLocked())
@@ -2527,11 +2527,11 @@ UniValue getzerocoinbalance(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 0)
         throw runtime_error(
             "getzerocoinbalance\n"
-            "\nReturn the wallet's total zXLQ balance.\n" +
+            "\nReturn the wallet's total zFFQ balance.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nResult:\n"
-            "amount         (numeric) Total zXLQ balance.\n"
+            "amount         (numeric) Total zFFQ balance.\n"
 
             "\nExamples:\n" +
             HelpExampleCli("getzerocoinbalance", "") + HelpExampleRpc("getzerocoinbalance", ""));
@@ -2555,7 +2555,7 @@ UniValue listmintedzerocoins(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 0)
         throw runtime_error(
             "listmintedzerocoins\n"
-            "\nList all zXLQ mints in the wallet.\n" +
+            "\nList all zFFQ mints in the wallet.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nResult:\n"
@@ -2572,7 +2572,7 @@ UniValue listmintedzerocoins(const UniValue& params, bool fHelp)
     EnsureWalletIsUnlocked(true);
 
     CWalletDB walletdb(pwalletMain->strWalletFile);
-    set<CMintMeta> setMints = pwalletMain->zXLQTracker->ListMints(true, false, true);
+    set<CMintMeta> setMints = pwalletMain->zFFQTracker->ListMints(true, false, true);
 
     UniValue jsonList(UniValue::VARR);
     for (const CMintMeta& meta : setMints)
@@ -2607,7 +2607,7 @@ UniValue listzerocoinamounts(const UniValue& params, bool fHelp)
     EnsureWalletIsUnlocked(true);
 
     CWalletDB walletdb(pwalletMain->strWalletFile);
-    set<CMintMeta> setMints = pwalletMain->zXLQTracker->ListMints(true, true, true);
+    set<CMintMeta> setMints = pwalletMain->zFFQTracker->ListMints(true, true, true);
 
     std::map<libzerocoin::CoinDenomination, CAmount> spread;
     for (const auto& denom : libzerocoin::zerocoinDenomList)
@@ -2631,7 +2631,7 @@ UniValue listspentzerocoins(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 0)
         throw runtime_error(
             "listspentzerocoins\n"
-            "\nList all the spent zXLQ mints in the wallet.\n" +
+            "\nList all the spent zFFQ mints in the wallet.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nResult:\n"
@@ -2663,11 +2663,11 @@ UniValue mintzerocoin(const UniValue& params, bool fHelp)
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
             "mintzerocoin amount ( utxos )\n"
-            "\nMint the specified zXLQ amount\n" +
+            "\nMint the specified zFFQ amount\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. amount      (numeric, required) Enter an amount of XLQ to convert to zXLQ\n"
+            "1. amount      (numeric, required) Enter an amount of FFQ to convert to zFFQ\n"
             "2. utxos       (string, optional) A json array of objects.\n"
             "                   Each object needs the txid (string) and vout (numeric)\n"
             "  [\n"
@@ -2711,7 +2711,7 @@ UniValue mintzerocoin(const UniValue& params, bool fHelp)
 
     int64_t nTime = GetTimeMillis();
     if(GetAdjustedTime() > GetSporkValue(SPORK_16_ZEROCOIN_MAINTENANCE_MODE))
-        throw JSONRPCError(RPC_WALLET_ERROR, "zXLQ is currently disabled due to maintenance.");
+        throw JSONRPCError(RPC_WALLET_ERROR, "zFFQ is currently disabled due to maintenance.");
 
     EnsureWalletIsUnlocked(true);
 
@@ -2774,7 +2774,7 @@ UniValue spendzerocoin(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 5 || params.size() < 4)
         throw runtime_error(
             "spendzerocoin amount mintchange minimizechange securitylevel ( \"address\" )\n"
-            "\nSpend zXLQ to a XLQ address.\n" +
+            "\nSpend zFFQ to a FFQ address.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
@@ -2805,8 +2805,8 @@ UniValue spendzerocoin(const UniValue& params, bool fHelp)
             "  ],\n"
             "  \"outputs\": [                 (array) JSON array of output objects.\n"
             "    {\n"
-            "      \"value\": amount,         (numeric) Value in XLQ.\n"
-            "      \"address\": \"xxx\"         (string) XLQ address or \"zerocoinmint\" for reminted change.\n"
+            "      \"value\": amount,         (numeric) Value in FFQ.\n"
+            "      \"address\": \"xxx\"         (string) FFQ address or \"zerocoinmint\" for reminted change.\n"
             "    }\n"
             "    ,...\n"
             "  ]\n"
@@ -2819,13 +2819,13 @@ UniValue spendzerocoin(const UniValue& params, bool fHelp)
     LOCK2(cs_main, pwalletMain->cs_wallet);
 
     if(GetAdjustedTime() > GetSporkValue(SPORK_16_ZEROCOIN_MAINTENANCE_MODE))
-        throw JSONRPCError(RPC_WALLET_ERROR, "zXLQ is currently disabled due to maintenance.");
+        throw JSONRPCError(RPC_WALLET_ERROR, "zFFQ is currently disabled due to maintenance.");
 
     EnsureWalletIsUnlocked();
 
     int64_t nTimeStart = GetTimeMillis();
     CAmount nAmount = AmountFromValue(params[0]);   // Spending amount
-    bool fMintChange = params[1].get_bool();        // Mint change to zXLQ
+    bool fMintChange = params[1].get_bool();        // Mint change to zFFQ
     bool fMinimizeChange = params[2].get_bool();    // Minimize change
     int nSecurityLevel = params[3].get_int();       // Security level
 
@@ -2923,8 +2923,8 @@ UniValue resetmintzerocoin(const UniValue& params, bool fHelp)
     LOCK2(cs_main, pwalletMain->cs_wallet);
 
     CWalletDB walletdb(pwalletMain->strWalletFile);
-    CzXLQTracker* zXLQTracker = pwalletMain->zXLQTracker.get();
-    set<CMintMeta> setMints = zXLQTracker->ListMints(false, false, true);
+    CzFFQTracker* zFFQTracker = pwalletMain->zFFQTracker.get();
+    set<CMintMeta> setMints = zFFQTracker->ListMints(false, false, true);
     vector<CMintMeta> vMintsToFind(setMints.begin(), setMints.end());
     vector<CMintMeta> vMintsMissing;
     vector<CMintMeta> vMintsToUpdate;
@@ -2935,14 +2935,14 @@ UniValue resetmintzerocoin(const UniValue& params, bool fHelp)
     // update the meta data of mints that were marked for updating
     UniValue arrUpdated(UniValue::VARR);
     for (CMintMeta meta : vMintsToUpdate) {
-        zXLQTracker->UpdateState(meta);
+        zFFQTracker->UpdateState(meta);
         arrUpdated.push_back(meta.hashPubcoin.GetHex());
     }
 
     // delete any mints that were unable to be located on the blockchain
     UniValue arrDeleted(UniValue::VARR);
     for (CMintMeta mint : vMintsMissing) {
-        zXLQTracker->Archive(mint);
+        zFFQTracker->Archive(mint);
         arrDeleted.push_back(mint.hashPubcoin.GetHex());
     }
 
@@ -2976,8 +2976,8 @@ UniValue resetspentzerocoin(const UniValue& params, bool fHelp)
     LOCK2(cs_main, pwalletMain->cs_wallet);
 
     CWalletDB walletdb(pwalletMain->strWalletFile);
-    CzXLQTracker* zXLQTracker = pwalletMain->zXLQTracker.get();
-    set<CMintMeta> setMints = zXLQTracker->ListMints(false, false, false);
+    CzFFQTracker* zFFQTracker = pwalletMain->zFFQTracker.get();
+    set<CMintMeta> setMints = zFFQTracker->ListMints(false, false, false);
     list<CZerocoinSpend> listSpends = walletdb.ListSpentCoins();
     list<CZerocoinSpend> listUnconfirmedSpends;
 
@@ -2999,7 +2999,7 @@ UniValue resetspentzerocoin(const UniValue& params, bool fHelp)
     for (CZerocoinSpend spend : listUnconfirmedSpends) {
         for (auto& meta : setMints) {
             if (meta.hashSerial == GetSerialHash(spend.GetSerial())) {
-                zXLQTracker->SetPubcoinNotUsed(meta.hashPubcoin);
+                zFFQTracker->SetPubcoinNotUsed(meta.hashPubcoin);
                 walletdb.EraseZerocoinSpendSerialEntry(spend.GetSerial());
                 RemoveSerialFromDB(spend.GetSerial());
                 UniValue obj(UniValue::VOBJ);
@@ -3081,7 +3081,7 @@ UniValue exportzerocoins(const UniValue& params, bool fHelp)
 
             "\nArguments:\n"
             "1. \"include_spent\"        (bool, required) Include mints that have already been spent\n"
-            "2. \"denomination\"         (integer, optional) Export a specific denomination of zXLQ\n"
+            "2. \"denomination\"         (integer, optional) Export a specific denomination of zFFQ\n"
 
             "\nResult:\n"
             "[                   (array of json object)\n"
@@ -3093,8 +3093,8 @@ UniValue exportzerocoins(const UniValue& params, bool fHelp)
             "    \"t\": \"txid\",    (string) The txid that the coin was minted in\n"
             "    \"h\": n,         (numeric) The height the tx was added to the blockchain\n"
             "    \"u\": used,      (boolean) Whether the mint has been spent\n"
-            "    \"v\": version,   (numeric) The version of the zXLQ\n"
-            "    \"k\": \"privkey\"  (string) The zXLQ private key (V2+ zXLQ only)\n"
+            "    \"v\": version,   (numeric) The version of the zFFQ\n"
+            "    \"k\": \"privkey\"  (string) The zFFQ private key (V2+ zFFQ only)\n"
             "  }\n"
             "  ,...\n"
             "]\n"
@@ -3113,8 +3113,8 @@ UniValue exportzerocoins(const UniValue& params, bool fHelp)
     if (params.size() == 2)
         denomination = libzerocoin::IntToZerocoinDenomination(params[1].get_int());
 
-    CzXLQTracker* zXLQTracker = pwalletMain->zXLQTracker.get();
-    set<CMintMeta> setMints = zXLQTracker->ListMints(!fIncludeSpent, false, false);
+    CzFFQTracker* zFFQTracker = pwalletMain->zFFQTracker.get();
+    set<CMintMeta> setMints = zFFQTracker->ListMints(!fIncludeSpent, false, false);
 
     UniValue jsonList(UniValue::VARR);
     for (const CMintMeta& meta : setMints) {
@@ -3160,7 +3160,7 @@ UniValue importzerocoins(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"added\": n,        (numeric) The quantity of zerocoin mints that were added\n"
-            "  \"value\": amount    (numeric) The total zXLQ value of zerocoin mints that were added\n"
+            "  \"value\": amount    (numeric) The total zFFQ value of zerocoin mints that were added\n"
             "}\n"
 
             "\nExamples\n" +
@@ -3224,7 +3224,7 @@ UniValue importzerocoins(const UniValue& params, bool fHelp)
         CZerocoinMint mint(denom, bnValue, bnRandom, bnSerial, fUsed, nVersion, &privkey);
         mint.SetTxHash(txid);
         mint.SetHeight(nHeight);
-        pwalletMain->zXLQTracker->Add(mint, true);
+        pwalletMain->zFFQTracker->Add(mint, true);
         count++;
         nValue += libzerocoin::ZerocoinDenominationToAmount(denom);
     }
@@ -3240,7 +3240,7 @@ UniValue reconsiderzerocoins(const UniValue& params, bool fHelp)
     if(fHelp || !params.empty())
         throw runtime_error(
             "reconsiderzerocoins\n"
-            "\nCheck archived zXLQ list to see if any mints were added to the blockchain.\n" +
+            "\nCheck archived zFFQ list to see if any mints were added to the blockchain.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nResult:\n"
@@ -3286,30 +3286,30 @@ UniValue reconsiderzerocoins(const UniValue& params, bool fHelp)
     return arrRet;
 }
 
-UniValue setzXLQseed(const UniValue& params, bool fHelp)
+UniValue setzFFQseed(const UniValue& params, bool fHelp)
 {
     if(fHelp || params.size() != 1)
         throw runtime_error(
-            "setzXLQseed \"seed\"\n"
-            "\nSet the wallet's deterministic zXLQ seed to a specific value.\n" +
+            "setzFFQseed \"seed\"\n"
+            "\nSet the wallet's deterministic zFFQ seed to a specific value.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"seed\"        (string, required) The deterministic zXLQ seed.\n"
+            "1. \"seed\"        (string, required) The deterministic zFFQ seed.\n"
 
             "\nResult\n"
             "\"success\" : b,  (boolean) Whether the seed was successfully set.\n"
 
             "\nExamples\n" +
-            HelpExampleCli("setzXLQseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5") +
-            HelpExampleRpc("setzXLQseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5"));
+            HelpExampleCli("setzFFQseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5") +
+            HelpExampleRpc("setzFFQseed", "63f793e7895dd30d99187b35fbfb314a5f91af0add9e0a4e5877036d1e392dd5"));
 
     EnsureWalletIsUnlocked();
 
     uint256 seed;
     seed.SetHex(params[0].get_str());
 
-    CzXLQWallet* zwallet = pwalletMain->getZWallet();
+    CzFFQWallet* zwallet = pwalletMain->getZWallet();
     bool fSuccess = zwallet->SetMasterSeed(seed, true);
     if (fSuccess)
         zwallet->SyncWithChain();
@@ -3320,23 +3320,23 @@ UniValue setzXLQseed(const UniValue& params, bool fHelp)
     return ret;
 }
 
-UniValue getzXLQseed(const UniValue& params, bool fHelp)
+UniValue getzFFQseed(const UniValue& params, bool fHelp)
 {
     if(fHelp || !params.empty())
         throw runtime_error(
-            "getzXLQseed\n"
-            "\nCheck archived zXLQ list to see if any mints were added to the blockchain.\n" +
+            "getzFFQseed\n"
+            "\nCheck archived zFFQ list to see if any mints were added to the blockchain.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nResult\n"
-            "\"seed\" : s,  (string) The deterministic zXLQ seed.\n"
+            "\"seed\" : s,  (string) The deterministic zFFQ seed.\n"
 
             "\nExamples\n" +
-            HelpExampleCli("getzXLQseed", "") + HelpExampleRpc("getzXLQseed", ""));
+            HelpExampleCli("getzFFQseed", "") + HelpExampleRpc("getzFFQseed", ""));
 
     EnsureWalletIsUnlocked();
 
-    CzXLQWallet* zwallet = pwalletMain->getZWallet();
+    CzFFQWallet* zwallet = pwalletMain->getZWallet();
     uint256 seed = zwallet->GetMasterSeed();
 
     UniValue ret(UniValue::VOBJ);
@@ -3350,12 +3350,12 @@ UniValue generatemintlist(const UniValue& params, bool fHelp)
     if(fHelp || params.size() != 2)
         throw runtime_error(
             "generatemintlist\n"
-            "\nShow mints that are derived from the deterministic zXLQ seed.\n" +
+            "\nShow mints that are derived from the deterministic zFFQ seed.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments\n"
-            "1. \"count\"  : n,  (numeric) Which sequential zXLQ to start with.\n"
-            "2. \"range\"  : n,  (numeric) How many zXLQ to generate.\n"
+            "1. \"count\"  : n,  (numeric) Which sequential zFFQ to start with.\n"
+            "2. \"range\"  : n,  (numeric) How many zFFQ to generate.\n"
 
             "\nResult:\n"
             "[\n"
@@ -3375,7 +3375,7 @@ UniValue generatemintlist(const UniValue& params, bool fHelp)
 
     int nCount = params[0].get_int();
     int nRange = params[1].get_int();
-    CzXLQWallet* zwallet = pwalletMain->zwalletMain;
+    CzFFQWallet* zwallet = pwalletMain->zwalletMain;
 
     UniValue arrRet(UniValue::VARR);
     for (int i = nCount; i < nCount + nRange; i++) {
@@ -3394,28 +3394,28 @@ UniValue generatemintlist(const UniValue& params, bool fHelp)
     return arrRet;
 }
 
-UniValue dzXLQstate(const UniValue& params, bool fHelp) {
+UniValue dzFFQstate(const UniValue& params, bool fHelp) {
     if (fHelp || params.size() != 0)
         throw runtime_error(
-                "dzXLQstate\n"
-                        "\nThe current state of the mintpool of the deterministic zXLQ wallet.\n" +
+                "dzFFQstate\n"
+                        "\nThe current state of the mintpool of the deterministic zFFQ wallet.\n" +
                 HelpRequiringPassphrase() + "\n"
 
                         "\nExamples\n" +
                 HelpExampleCli("mintpoolstatus", "") + HelpExampleRpc("mintpoolstatus", ""));
 
-    CzXLQWallet* zwallet = pwalletMain->zwalletMain;
+    CzFFQWallet* zwallet = pwalletMain->zwalletMain;
     UniValue obj(UniValue::VOBJ);
     int nCount, nCountLastUsed;
     zwallet->GetState(nCount, nCountLastUsed);
-    obj.push_back(Pair("dzXLQ_count", nCount));
+    obj.push_back(Pair("dzFFQ_count", nCount));
     obj.push_back(Pair("mintpool_count", nCountLastUsed));
 
     return obj;
 }
 
 
-void static SearchThread(CzXLQWallet* zwallet, int nCountStart, int nCountEnd)
+void static SearchThread(CzFFQWallet* zwallet, int nCountStart, int nCountEnd)
 {
     LogPrintf("%s: start=%d end=%d\n", __func__, nCountStart, nCountEnd);
     CWalletDB walletDB(pwalletMain->strWalletFile);
@@ -3432,7 +3432,7 @@ void static SearchThread(CzXLQWallet* zwallet, int nCountStart, int nCountEnd)
             CBigNum bnSerial;
             CBigNum bnRandomness;
             CKey key;
-            zwallet->SeedToZXLQ(zerocoinSeed, bnValue, bnSerial, bnRandomness, key);
+            zwallet->SeedToZFFQ(zerocoinSeed, bnValue, bnSerial, bnRandomness, key);
 
             uint256 hashPubcoin = GetPubCoinHash(bnValue);
             zwallet->AddToMintPool(make_pair(hashPubcoin, i), true);
@@ -3445,21 +3445,21 @@ void static SearchThread(CzXLQWallet* zwallet, int nCountStart, int nCountEnd)
     }
 }
 
-UniValue searchdzXLQ(const UniValue& params, bool fHelp)
+UniValue searchdzFFQ(const UniValue& params, bool fHelp)
 {
     if(fHelp || params.size() != 3)
         throw runtime_error(
-            "searchdzXLQ\n"
-            "\nMake an extended search for deterministically generated zXLQ that have not yet been recognized by the wallet.\n" +
+            "searchdzFFQ\n"
+            "\nMake an extended search for deterministically generated zFFQ that have not yet been recognized by the wallet.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments\n"
-            "1. \"count\"       (numeric) Which sequential zXLQ to start with.\n"
-            "2. \"range\"       (numeric) How many zXLQ to generate.\n"
+            "1. \"count\"       (numeric) Which sequential zFFQ to start with.\n"
+            "2. \"range\"       (numeric) How many zFFQ to generate.\n"
             "3. \"threads\"     (numeric) How many threads should this operation consume.\n"
 
             "\nExamples\n" +
-            HelpExampleCli("searchdzXLQ", "1, 100, 2") + HelpExampleRpc("searchdzXLQ", "1, 100, 2"));
+            HelpExampleCli("searchdzFFQ", "1, 100, 2") + HelpExampleRpc("searchdzFFQ", "1, 100, 2"));
 
     EnsureWalletIsUnlocked();
 
@@ -3473,9 +3473,9 @@ UniValue searchdzXLQ(const UniValue& params, bool fHelp)
 
     int nThreads = params[2].get_int();
 
-    CzXLQWallet* zwallet = pwalletMain->zwalletMain;
+    CzFFQWallet* zwallet = pwalletMain->zwalletMain;
 
-    boost::thread_group* dzXLQThreads = new boost::thread_group();
+    boost::thread_group* dzFFQThreads = new boost::thread_group();
     int nRangePerThread = nRange / nThreads;
 
     int nPrevThreadEnd = nCount - 1;
@@ -3483,12 +3483,12 @@ UniValue searchdzXLQ(const UniValue& params, bool fHelp)
         int nStart = nPrevThreadEnd + 1;;
         int nEnd = nStart + nRangePerThread;
         nPrevThreadEnd = nEnd;
-        dzXLQThreads->create_thread(boost::bind(&SearchThread, zwallet, nStart, nEnd));
+        dzFFQThreads->create_thread(boost::bind(&SearchThread, zwallet, nStart, nEnd));
     }
 
-    dzXLQThreads->join_all();
+    dzFFQThreads->join_all();
 
-    zwallet->RemoveMintsFromPool(pwalletMain->zXLQTracker->GetSerialHashes());
+    zwallet->RemoveMintsFromPool(pwalletMain->zFFQTracker->GetSerialHashes());
     zwallet->SyncWithChain(false);
 
     //todo: better response

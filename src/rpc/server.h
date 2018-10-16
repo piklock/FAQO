@@ -258,11 +258,11 @@ extern UniValue importzerocoins(const UniValue& params, bool fHelp);
 extern UniValue exportzerocoins(const UniValue& params, bool fHelp);
 extern UniValue reconsiderzerocoins(const UniValue& params, bool fHelp);
 extern UniValue getspentzerocoinamount(const UniValue& params, bool fHelp);
-extern UniValue setzXLQseed(const UniValue& params, bool fHelp);
-extern UniValue getzXLQseed(const UniValue& params, bool fHelp);
+extern UniValue setzFFQseed(const UniValue& params, bool fHelp);
+extern UniValue getzFFQseed(const UniValue& params, bool fHelp);
 extern UniValue generatemintlist(const UniValue& params, bool fHelp);
-extern UniValue searchdzXLQ(const UniValue& params, bool fHelp);
-extern UniValue dzXLQstate(const UniValue& params, bool fHelp);
+extern UniValue searchdzFFQ(const UniValue& params, bool fHelp);
+extern UniValue dzFFQstate(const UniValue& params, bool fHelp);
 
 extern UniValue getrawtransaction(const UniValue& params, bool fHelp); // in rpc/rawtransaction.cpp
 extern UniValue listunspent(const UniValue& params, bool fHelp);

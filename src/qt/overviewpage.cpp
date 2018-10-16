@@ -35,7 +35,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::XLQ)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::FFQ)
     {
     }
 
@@ -164,7 +164,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sXLQPercentage, QString& szXLQPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sFFQPercentage, QString& szFFQPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -183,8 +183,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szXLQPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sXLQPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szFFQPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sFFQPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -209,16 +209,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // XLQ Balance
+    // FFQ Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount XLQAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount FFQAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // XLQ Watch-Only Balance
+    // FFQ Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zXLQ Balance
+    // zFFQ Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -226,11 +226,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     QString sPercentage = "";
     getPercentage(nUnlockedBalance, zerocoinBalance, sPercentage, szPercentage);
     // Combined balances
-    CAmount availableTotalBalance = XLQAvailableBalance + matureZerocoinBalance;
+    CAmount availableTotalBalance = FFQAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // XLQ labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, XLQAvailableBalance, false, BitcoinUnits::separatorAlways));
+    // FFQ labels
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, FFQAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -243,7 +243,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zXLQ labels
+    // zFFQ labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -254,11 +254,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelXLQPercent->setText(sPercentage);
-    ui->labelzXLQPercent->setText(szPercentage);
+    ui->labelFFQPercent->setText(sPercentage);
+    ui->labelzFFQPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zXLQ.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zFFQ.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
@@ -279,49 +279,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // XLQ Available
-    bool showXLQAvailable = settingShowAllBalances || XLQAvailableBalance != nTotalBalance;
-    bool showWatchOnlyXLQAvailable = showXLQAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showXLQAvailable || showWatchOnlyXLQAvailable);
-    ui->labelBalance->setVisible(showXLQAvailable || showWatchOnlyXLQAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyXLQAvailable && showWatchOnly);
+    // FFQ Available
+    bool showFFQAvailable = settingShowAllBalances || FFQAvailableBalance != nTotalBalance;
+    bool showWatchOnlyFFQAvailable = showFFQAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showFFQAvailable || showWatchOnlyFFQAvailable);
+    ui->labelBalance->setVisible(showFFQAvailable || showWatchOnlyFFQAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyFFQAvailable && showWatchOnly);
 
-    // XLQ Pending
-    bool showXLQPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyXLQPending = showXLQPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showXLQPending || showWatchOnlyXLQPending);
-    ui->labelUnconfirmed->setVisible(showXLQPending || showWatchOnlyXLQPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyXLQPending && showWatchOnly);
+    // FFQ Pending
+    bool showFFQPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyFFQPending = showFFQPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showFFQPending || showWatchOnlyFFQPending);
+    ui->labelUnconfirmed->setVisible(showFFQPending || showWatchOnlyFFQPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyFFQPending && showWatchOnly);
 
-    // XLQ Immature
-    bool showXLQImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showXLQImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showXLQImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showXLQImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // FFQ Immature
+    bool showFFQImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showFFQImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showFFQImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showFFQImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // XLQ Locked
-    bool showXLQLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyXLQLocked = showXLQLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showXLQLocked || showWatchOnlyXLQLocked);
-    ui->labelLockedBalance->setVisible(showXLQLocked || showWatchOnlyXLQLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyXLQLocked && showWatchOnly);
+    // FFQ Locked
+    bool showFFQLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyFFQLocked = showFFQLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showFFQLocked || showWatchOnlyFFQLocked);
+    ui->labelLockedBalance->setVisible(showFFQLocked || showWatchOnlyFFQLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyFFQLocked && showWatchOnly);
 
-    // zXLQ
-    bool showzXLQAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzXLQUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzXLQImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzXLQAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzXLQAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzXLQUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzXLQUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzXLQImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzXLQImmature);
+    // zFFQ
+    bool showzFFQAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzFFQUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzFFQImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzFFQAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzFFQAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzFFQUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzFFQUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzFFQImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzFFQImmature);
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelXLQPercent->setVisible(showPercentages);
-    ui->labelzXLQPercent->setVisible(showPercentages);
+    ui->labelFFQPercent->setVisible(showPercentages);
+    ui->labelzFFQPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -392,7 +392,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("XLQ")
+    // update the display unit, to not use the default ("FFQ")
     updateDisplayUnit();
 }
 

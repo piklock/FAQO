@@ -1150,17 +1150,17 @@ bool CWalletDB::ReadZerocoinSpendSerialEntry(const CBigNum& bnSerial)
 bool CWalletDB::WriteDeterministicMint(const CDeterministicMint& dMint)
 {
     uint256 hash = dMint.GetPubcoinHash();
-    return Write(make_pair(string("dzXLQ"), hash), dMint, true);
+    return Write(make_pair(string("dzFFQ"), hash), dMint, true);
 }
 
 bool CWalletDB::ReadDeterministicMint(const uint256& hashPubcoin, CDeterministicMint& dMint)
 {
-    return Read(make_pair(string("dzXLQ"), hashPubcoin), dMint);
+    return Read(make_pair(string("dzFFQ"), hashPubcoin), dMint);
 }
 
 bool CWalletDB::EraseDeterministicMint(const uint256& hashPubcoin)
 {
-    return Erase(make_pair(string("dzXLQ"), hashPubcoin));
+    return Erase(make_pair(string("dzFFQ"), hashPubcoin));
 }
 
 bool CWalletDB::WriteZerocoinMint(const CZerocoinMint& zerocoinMint)
@@ -1220,7 +1220,7 @@ bool CWalletDB::ArchiveDeterministicOrphan(const CDeterministicMint& dMint)
     if (!Write(make_pair(string("dzco"), dMint.GetPubcoinHash()), dMint))
         return error("%s: write failed", __func__);
 
-    if (!Erase(make_pair(string("dzXLQ"), dMint.GetPubcoinHash())))
+    if (!Erase(make_pair(string("dzFFQ"), dMint.GetPubcoinHash())))
         return error("%s: failed to erase", __func__);
 
     return true;
@@ -1265,7 +1265,7 @@ bool CWalletDB::ReadCurrentSeedHash(uint256& hashSeed)
     return Read(string("seedhash"), hashSeed);
 }
 
-bool CWalletDB::WriteZXLQSeed(const uint256& hashSeed, const vector<unsigned char>& seed)
+bool CWalletDB::WriteZFFQSeed(const uint256& hashSeed, const vector<unsigned char>& seed)
 {
     if (!WriteCurrentSeedHash(hashSeed))
         return error("%s: failed to write current seed hash", __func__);
@@ -1273,13 +1273,13 @@ bool CWalletDB::WriteZXLQSeed(const uint256& hashSeed, const vector<unsigned cha
     return Write(make_pair(string("dzs"), hashSeed), seed);
 }
 
-bool CWalletDB::EraseZXLQSeed()
+bool CWalletDB::EraseZFFQSeed()
 {
     uint256 hash;
     if(!ReadCurrentSeedHash(hash)){
         return error("Failed to read a current seed hash");
     }
-    if(!WriteZXLQSeed(hash, ToByteVector(base_uint<256>(0) << 256))) {
+    if(!WriteZFFQSeed(hash, ToByteVector(base_uint<256>(0) << 256))) {
         return error("Failed to write empty seed to wallet");
     }
     if(!WriteCurrentSeedHash(0)) {
@@ -1289,27 +1289,27 @@ bool CWalletDB::EraseZXLQSeed()
     return true;
 }
 
-bool CWalletDB::EraseZXLQSeed_deprecated()
+bool CWalletDB::EraseZFFQSeed_deprecated()
 {
     return Erase(string("dzs"));
 }
 
-bool CWalletDB::ReadZXLQSeed(const uint256& hashSeed, vector<unsigned char>& seed)
+bool CWalletDB::ReadZFFQSeed(const uint256& hashSeed, vector<unsigned char>& seed)
 {
     return Read(make_pair(string("dzs"), hashSeed), seed);
 }
 
-bool CWalletDB::ReadZXLQSeed_deprecated(uint256& seed)
+bool CWalletDB::ReadZFFQSeed_deprecated(uint256& seed)
 {
     return Read(string("dzs"), seed);
 }
 
-bool CWalletDB::WriteZXLQCount(const uint32_t& nCount)
+bool CWalletDB::WriteZFFQCount(const uint32_t& nCount)
 {
     return Write(string("dzc"), nCount);
 }
 
-bool CWalletDB::ReadZXLQCount(uint32_t& nCount)
+bool CWalletDB::ReadZFFQCount(uint32_t& nCount)
 {
     return Read(string("dzc"), nCount);
 }
@@ -1388,7 +1388,7 @@ std::list<CDeterministicMint> CWalletDB::ListDeterministicMints()
         // Read next record
         CDataStream ssKey(SER_DISK, CLIENT_VERSION);
         if (fFlags == DB_SET_RANGE)
-            ssKey << make_pair(string("dzXLQ"), uint256(0));
+            ssKey << make_pair(string("dzFFQ"), uint256(0));
         CDataStream ssValue(SER_DISK, CLIENT_VERSION);
         int ret = ReadAtCursor(pcursor, ssKey, ssValue, fFlags);
         fFlags = DB_NEXT;
@@ -1403,7 +1403,7 @@ std::list<CDeterministicMint> CWalletDB::ListDeterministicMints()
         // Unserialize
         string strType;
         ssKey >> strType;
-        if (strType != "dzXLQ")
+        if (strType != "dzFFQ")
             break;
 
         uint256 hashPubcoin;

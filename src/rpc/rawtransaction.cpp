@@ -20,7 +20,7 @@
 #include "hypersend.h"
 #include "uint256.h"
 #include "utilmoneystr.h"
-#include "zXLQchain.h"
+#include "zFFQchain.h"
 #ifdef ENABLE_WALLET
 #include "wallet.h"
 #endif

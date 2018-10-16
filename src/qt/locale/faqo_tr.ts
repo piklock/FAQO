@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>FAQO şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, XLQ'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FFQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, FFQ'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLQ&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FFQ&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zXLQ</source>
-        <translation>Gizlilik Aksiyonları zXLQ</translation>
+        <source>Privacy Actions for zFFQ</source>
+        <translation>Gizlilik Aksiyonları zFFQ</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1644,8 +1644,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Address /miktar:</translation>
     </message>
     <message>
-        <source>Add destinations to send XLQ to</source>
-        <translation>XLQ göndermek için varış yerleri ekleyin</translation>
+        <source>Add destinations to send FFQ to</source>
+        <translation>FFQ göndermek için varış yerleri ekleyin</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1743,32 +1743,32 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Lütfen bir gizlilik düzeyi seçin.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>10000 XLQ'e kadar fonları karıştırmak için 2 ayrı matternod kullanın</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>10000 FFQ'e kadar fonları karıştırmak için 2 ayrı matternod kullanın</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>10000 XLQ'ye kadar olan fonları karıştırmak için 8 ayrı matternod kullanın</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>10000 FFQ'ye kadar olan fonları karıştırmak için 8 ayrı matternod kullanın</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16 ayrı matternod kullan</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLQ to anonymize 10000 XLQ</source>
-        <translation>Bu seçenek en hızlıdır ve 10000 XLQ'yi anonimleştirmek için ~ 0.025 XLQ'lik bir maliyeti olacaktır</translation>
+        <source>This option is the quickest and will cost about ~0.025 FFQ to anonymize 10000 FFQ</source>
+        <translation>Bu seçenek en hızlıdır ve 10000 FFQ'yi anonimleştirmek için ~ 0.025 FFQ'lik bir maliyeti olacaktır</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLQ to anonymize 10000 XLQ</source>
-        <translation>Bu seçenek orta derecede hızlıdır ve 10000 XLQ'yi anonimleştirmek için yaklaşık 0.05 XLQ'e mal olur</translation>
+        <source>This option is moderately fast and will cost about 0.05 FFQ to anonymize 10000 FFQ</source>
+        <translation>Bu seçenek orta derecede hızlıdır ve 10000 FFQ'yi anonimleştirmek için yaklaşık 0.05 FFQ'e mal olur</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Bu en yavaş ve en güvenli seçenektir. Maksimum anonimlik kullanmak maliyete gelecek</translation>
     </message>
     <message>
-        <source>0.1 XLQ per 10000 XLQ you anonymize.</source>
-        <translation>0.1 XLQ her 10000 XLQ anonimleştirmeye.</translation>
+        <source>0.1 FFQ per 10000 FFQ you anonymize.</source>
+        <translation>0.1 FFQ her 10000 FFQ anonimleştirmeye.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1911,24 +1911,24 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zXLQ Automint</source>
-        <translation>zXLQ Otomatik basımı etkinleştir</translation>
+        <source>Enable zFFQ Automint</source>
+        <translation>zFFQ Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLQ which get automatically converted to zXLQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zXLQ'ye dönüştürülen gelen XLQ yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming FFQ which get automatically converted to zFFQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zFFQ'ye dönüştürülen gelen FFQ yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLQ</source>
-        <translation>Otomatikleştirilmiş zXLQ yüzdesi</translation>
+        <source>Percentage of autominted zFFQ</source>
+        <translation>Otomatikleştirilmiş zFFQ yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLQ for this denomination is available</source>
-        <translation>Bu mezhebi için yeterli XLQ bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough FFQ for this denomination is available</source>
+        <translation>Bu mezhebi için yeterli FFQ bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLQ Denomination</source>
-        <translation>Tercih edilen Automint zXLQ Nominal değeri</translation>
+        <source>Preferred Automint zFFQ Denomination</source>
+        <translation>Tercih edilen Automint zFFQ Nominal değeri</translation>
     </message>
     <message>
         <source>Connect to the FAQO network through a SOCKS5 proxy.</source>
@@ -2078,8 +2078,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Toplam Bakiye, mevcut olmayan tüm paralar dahil.</translation>
     </message>
     <message>
-        <source>XLQ Balance</source>
-        <translation>XLQ Bakiyesi</translation>
+        <source>FFQ Balance</source>
+        <translation>FFQ Bakiyesi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2102,8 +2102,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Güncel FAQO bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zXLQ Balance</source>
-        <translation>zXLQ Bakiyesi</translation>
+        <source>zFFQ Balance</source>
+        <translation>zFFQ Bakiyesi</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FAQO network after a connection is established, but this process has not completed yet.</source>
@@ -2150,8 +2150,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked XLQ or Masternode collaterals. These are excluded from zXLQ minting.</source>
-        <translation>Kilitli XLQ veya Masternode teminatları. Bunlar zXLQ matlaştırmadan çıkarılır.</translation>
+        <source>Locked FFQ or Masternode collaterals. These are excluded from zFFQ minting.</source>
+        <translation>Kilitli FFQ veya Masternode teminatları. Bunlar zFFQ matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2162,8 +2162,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zXLQ balance, unconfirmed and immature zXLQ included.</source>
-        <translation>Güncel zXLQ bakiyeniz, onaylanmamış ve olgunlaşmamış zXLQ'ler dahil.</translation>
+        <source>Your current zFFQ balance, unconfirmed and immature zFFQ included.</source>
+        <translation>Güncel zFFQ bakiyeniz, onaylanmamış ve olgunlaşmamış zFFQ'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2174,10 +2174,10 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zXLQ.
+        <source>Current percentage of zFFQ.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zXLQ yüzdesi.
+        <translation>Mevcut zFFQ yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2321,8 +2321,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2333,8 +2333,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>Mintinge hazır</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLQ</source>
-        <translation>0.000 000 00 XLQ</translation>
+        <source>0.000 000 00 FFQ</source>
+        <translation>0.000 000 00 FFQ</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2385,24 +2385,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zXLQ</translation>
+        <source>Available (mature and spendable) zFFQ for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zFFQ</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending
+        <source>Available (mature and spendable) zFFQ for spending
 
-zXLQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zXLQ
+zFFQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zFFQ
 
-zXLQ, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zFFQ, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zXLQ</source>
-        <translation>0 zXLQ</translation>
+        <source>0 zFFQ</source>
+        <translation>0 zFFQ</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2473,8 +2473,8 @@ zXLQ, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zXLQ</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zXLQ dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zFFQ</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zFFQ dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2649,12 +2649,12 @@ Maximum allowed: </source>
 Maksimum bırakılan: </translation>
     </message>
     <message>
-        <source>zXLQ is currently disabled due to maintenance.</source>
-        <translation>zXLQ bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zFFQ is currently disabled due to maintenance.</source>
+        <translation>zFFQ bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zXLQ is currently undergoing maintenance.</source>
-        <translation>zXLQ halen bakım alıyor.</translation>
+        <source>zFFQ is currently undergoing maintenance.</source>
+        <translation>zFFQ halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2677,8 +2677,8 @@ Maksimum bırakılan: </translation>
         <translation>Başarılı şekilde mint edildi</translation>
     </message>
     <message>
-        <source> zXLQ in </source>
-        <translation> zXLQ in </translation>
+        <source> zFFQ in </source>
+        <translation> zFFQ in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -3428,8 +3428,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>UTXO Boyutu:</translation>
     </message>
     <message>
-        <source>0 XLQ</source>
-        <translation>0 XLQ</translation>
+        <source>0 FFQ</source>
+        <translation>0 FFQ</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3484,12 +3484,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Koinler otomatik seçildi</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLQs in fee,&lt;br /&gt;while "at least" pays 1000 uXLQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uXLQ olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uXLQ öder,&lt;br /&gt;"en az" ise 1000 uXLQ öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uFFQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFFQs in fee,&lt;br /&gt;while "at least" pays 1000 uFFQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uFFQ olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uFFQ öder,&lt;br /&gt;"en az" ise 1000 uFFQ öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLQs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uXLQ olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uXLQ ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uXLQ ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uFFQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFFQs in fee,&lt;br /&gt;while "total at least" pays 1000 uFFQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uFFQ olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uFFQ ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uFFQ ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FAQO transactions than the network can process.</source>
@@ -3540,8 +3540,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Alıcı ekle</translation>
     </message>
     <message>
-        <source>Anonymized XLQ</source>
-        <translation>anonim edilmiş XLQ</translation>
+        <source>Anonymized FFQ</source>
+        <translation>anonim edilmiş FFQ</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4436,8 +4436,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>HyperSend doesn't support sending values that high yet. Transactions are currently limited to %1 XLQ.</source>
-        <translation>HyperSend yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 XLQ ile sınırlıdır.</translation>
+        <source>HyperSend doesn't support sending values that high yet. Transactions are currently limited to %1 FFQ.</source>
+        <translation>HyperSend yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 FFQ ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -4464,7 +4464,7 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
     </message>
 </context>
 <context>
-    <name>ZXlqControlDialog</name>
+    <name>ZFfqControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Adet</translation>
@@ -4474,8 +4474,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4565,12 +4565,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in XLQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (XLQ / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in FFQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (FFQ / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (XLQ / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in FFQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (FFQ / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

@@ -23,8 +23,8 @@
 #include "validationinterface.h"
 #include "wallet_ismine.h"
 #include "walletdb.h"
-#include "zXLQwallet.h"
-#include "zXLQtracker.h"
+#include "zFFQwallet.h"
+#include "zFFQtracker.h"
 
 #include <algorithm>
 #include <map>
@@ -84,30 +84,30 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 XLQ at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 FFQ at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zXLQ send
+// Possible states for zFFQ send
 enum ZerocoinSpendStatus {
-    ZXLQ_SPEND_OKAY = 0,                            // No error
-    ZXLQ_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZXLQ_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZXLQ_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZXLQ_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZXLQ_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZXLQ_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZXLQ_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZXLQ_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZXLQ_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZXLQ_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZXLQ_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZXLQ_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZXLQ_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZXLQ_SPENT_USED_ZXLQ = 14,                      // Coin has already been spend
-    ZXLQ_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
-    ZXLQ_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
+    ZFFQ_SPEND_OKAY = 0,                            // No error
+    ZFFQ_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZFFQ_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZFFQ_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZFFQ_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZFFQ_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZFFQ_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZFFQ_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZFFQ_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZFFQ_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZFFQ_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZFFQ_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZFFQ_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZFFQ_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZFFQ_SPENT_USED_ZFFQ = 14,                      // Coin has already been spend
+    ZFFQ_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
+    ZFFQ_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
 };
 
 struct CompactTallyItem {
@@ -213,15 +213,15 @@ public:
     std::string ResetMintZerocoin();
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored, std::list<CDeterministicMint>& listDMintsRestored);
-    void ZXlqBackupWallet();
+    void ZFfqBackupWallet();
     bool GetZerocoinKey(const CBigNum& bnSerial, CKey& key);
-    bool CreateZXLQOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
+    bool CreateZFFQOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
     bool GetMint(const uint256& hashSerial, CZerocoinMint& mint);
     bool GetMintFromStakeHash(const uint256& hashStake, CZerocoinMint& mint);
     bool DatabaseMint(CDeterministicMint& dMint);
     bool SetMintUnspent(const CBigNum& bnSerial);
     bool UpdateMint(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const libzerocoin::CoinDenomination& denom);
-    string GetUniqueWalletBackupName(bool fzXLQAuto) const;
+    string GetUniqueWalletBackupName(bool fzFFQAuto) const;
 
 
     /** Zerocin entry changed.
@@ -237,13 +237,13 @@ public:
      */
     mutable CCriticalSection cs_wallet;
 
-    CzXLQWallet* zwalletMain;
+    CzFFQWallet* zwalletMain;
 
     bool fFileBacked;
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
     bool fBackupMints;
-    std::unique_ptr<CzXLQTracker> zXLQTracker;
+    std::unique_ptr<CzFFQTracker> zFFQTracker;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -328,20 +328,20 @@ public:
         return nZeromintPercentage;
     }
 
-    void setZWallet(CzXLQWallet* zwallet)
+    void setZWallet(CzFFQWallet* zwallet)
     {
         zwalletMain = zwallet;
-        zXLQTracker = std::unique_ptr<CzXLQTracker>(new CzXLQTracker(strWalletFile));
+        zFFQTracker = std::unique_ptr<CzFFQTracker>(new CzFFQTracker(strWalletFile));
     }
 
-    CzXLQWallet* getZWallet() { return zwalletMain; }
+    CzFFQWallet* getZWallet() { return zwalletMain; }
 
     bool isZeromintEnabled()
     {
         return fEnableZeromint;
     }
 
-    void setZXlqAutoBackups(bool fEnabled)
+    void setZFfqAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }
@@ -669,8 +669,8 @@ public:
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 
-    /** zXLQ reset */
-    boost::signals2::signal<void()> NotifyzXLQReset;
+    /** zFFQ reset */
+    boost::signals2::signal<void()> NotifyzFFQReset;
 
     /** notify wallet file backed up */
     boost::signals2::signal<void (const bool& fSuccess, const std::string& filename)> NotifyWalletBacked;

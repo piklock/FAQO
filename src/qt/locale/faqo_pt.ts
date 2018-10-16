@@ -172,16 +172,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>FAQO encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas XLQs contra roubo por malware infectando seu computador.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FFQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas FFQs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLQ&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA XLQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FFQ&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA FFQ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -901,7 +901,7 @@
     </message>
     </context>
 <context>
-    <name>ZXlqControlDialog</name>
+    <name>ZFfqControlDialog</name>
     </context>
 <context>
     <name>faqo-core</name>

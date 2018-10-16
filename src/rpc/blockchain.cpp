@@ -118,12 +118,12 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    UniValue zXLQObj(UniValue::VOBJ);
+    UniValue zFFQObj(UniValue::VOBJ);
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zXLQObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zFFQObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zXLQObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zXLQsupply", zXLQObj));
+    zFFQObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.push_back(Pair("zFFQsupply", zFFQObj));
 
     return result;
 }
@@ -323,17 +323,17 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zXLQsupply\" :\n"
+            "  \"zFFQsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zXLQ denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zXLQ denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zXLQ denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zXLQ denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zXLQ denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zXLQ denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zXLQ denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zXLQ denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zXLQ denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zFFQ denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zFFQ denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zFFQ denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zFFQ denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zFFQ denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zFFQ denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zFFQ denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zFFQ denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zFFQ denominations\n"
             "  }\n"
             "}\n"
 

@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
-        <translation>FAQO verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XLQ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FFQs from being stolen by malware infecting your computer.</source>
+        <translation>FAQO verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi FFQ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLQ&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI XLQ&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FFQ&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI FFQ&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zXLQ</source>
-        <translation>Operazioni di privacy per zXLQ</translation>
+        <source>Privacy Actions for zFFQ</source>
+        <translation>Operazioni di privacy per zFFQ</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -738,7 +738,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to FAQO network</source>
-        <translation><numerusform>%n connessione attiva alla rete XLQIX</numerusform><numerusform>%n connessioni attive alla rete XLQIX</numerusform></translation>
+        <translation><numerusform>%n connessione attiva alla rete FFQIX</numerusform><numerusform>%n connessioni attive alla rete FFQIX</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1126,8 +1126,8 @@ MultiSend: %1</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uXLQ per input.</source>
-        <translation>Può variare di +/- %1 uXLQ per input.</translation>
+        <source>Can vary +/- %1 uFFQ per input.</source>
+        <translation>Può variare di +/- %1 uFFQ per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1275,7 +1275,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Welcome to FAQO Core.</source>
-        <translation>Benvenuto in XLQIX Core.</translation>
+        <translation>Benvenuto in FFQIX Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where FAQO Core will store its data.</source>
@@ -1671,12 +1671,12 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Configura Offuscamento</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 XLQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 FFQ</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>Usa 8 masternodi diversi per mixare fino a 10000 XLQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>Usa 8 masternodi diversi per mixare fino a 10000 FFQ</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1713,24 +1713,24 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of XLQ units to zXLQ</source>
-        <translation>Attiva il conio automatico di unità XLQ in zXLQ</translation>
+        <source>Enable automatic minting of FFQ units to zFFQ</source>
+        <translation>Attiva il conio automatico di unità FFQ in zFFQ</translation>
     </message>
     <message>
-        <source>Enable zXLQ Automint</source>
-        <translation>Attiva Conio automatico zXLQ</translation>
+        <source>Enable zFFQ Automint</source>
+        <translation>Attiva Conio automatico zFFQ</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLQ which get automatically converted to zXLQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di XLQ in entrata che viene automaticamente convertita in zXLQ attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming FFQ which get automatically converted to zFFQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di FFQ in entrata che viene automaticamente convertita in zFFQ attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLQ</source>
-        <translation>Percentuale di zXLQ Percentuale di zXLQ da coniare automaticamente</translation>
+        <source>Percentage of autominted zFFQ</source>
+        <translation>Percentuale di zFFQ Percentuale di zFFQ da coniare automaticamente</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLQ Denomination</source>
-        <translation>Denominazione preferita conio automatico zXLQ</translation>
+        <source>Preferred Automint zFFQ Denomination</source>
+        <translation>Denominazione preferita conio automatico zFFQ</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1792,8 +1792,8 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>XLQ Balance</source>
-        <translation>Bilancio XLQ</translation>
+        <source>FFQ Balance</source>
+        <translation>Bilancio FFQ</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1808,14 +1808,14 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Il tuo saldo FAQO corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
-        <source>zXLQ Balance</source>
-        <translation>Bilancio zXLQ</translation>
+        <source>zFFQ Balance</source>
+        <translation>Bilancio zFFQ</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zXLQ are spendable.</source>
+These zFFQ are spendable.</source>
         <translation>Maturi: più di 20 conferme e più di 1 conio della stessa denominazione dopo il conio.
-Questi zXLQ sono spendibili.</translation>
+Questi zFFQ sono spendibili.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1846,8 +1846,8 @@ Questi zXLQ sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked XLQ or Masternode collaterals. These are excluded from zXLQ minting.</source>
-        <translation>XLQ bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zXLQ.</translation>
+        <source>Locked FFQ or Masternode collaterals. These are excluded from zFFQ minting.</source>
+        <translation>FFQ bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zFFQ.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1858,18 +1858,18 @@ Questi zXLQ sono spendibili.</translation>
         <translation>Non confermati:</translation>
     </message>
     <message>
-        <source>Your current zXLQ balance, unconfirmed and immature zXLQ included.</source>
-        <translation>Il tuo saldo zXLQ corrente, inclusi zXLQ non confermati e non maturi</translation>
+        <source>Your current zFFQ balance, unconfirmed and immature zFFQ included.</source>
+        <translation>Il tuo saldo zFFQ corrente, inclusi zFFQ non confermati e non maturi</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transazioni recenti</translation>
     </message>
     <message>
-        <source>Current percentage of zXLQ.
+        <source>Current percentage of zFFQ.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Percentuale corrente di zXLQ.
+        <translation>Percentuale corrente di zFFQ.
 Se il conio automatico è attivato questa percentuale si stabilizzerà all'incirca sulla percentuale stabilita per il conio automatico (percentuale prestabilita = 10%).
 </translation>
     </message>
@@ -1933,12 +1933,12 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLQ</source>
-        <translation>0.000 000 00 XLQ</translation>
+        <source>0.000 000 00 FFQ</source>
+        <translation>0.000 000 00 FFQ</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1961,16 +1961,16 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of XLQ to convert to zXLQ</source>
-        <translation>Immetti un importo di XLQ da convertire in zXLQ</translation>
+        <source>Enter an amount of FFQ to convert to zFFQ</source>
+        <translation>Immetti un importo di FFQ da convertire in zFFQ</translation>
     </message>
     <message>
-        <source>zXLQ Control</source>
-        <translation>Controllo zXLQ</translation>
+        <source>zFFQ Control</source>
+        <translation>Controllo zFFQ</translation>
     </message>
     <message>
-        <source>zXLQ Selected:</source>
-        <translation>zXLQ selezionati:</translation>
+        <source>zFFQ Selected:</source>
+        <translation>zFFQ selezionati:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1981,23 +1981,23 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>Spendi Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending</source>
-        <translation>zXLQ disponibili disponibili per essere spesi (maturi e spendibili)</translation>
+        <source>Available (mature and spendable) zFFQ for spending</source>
+        <translation>zFFQ disponibili disponibili per essere spesi (maturi e spendibili)</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending
+        <source>Available (mature and spendable) zFFQ for spending
 
-zXLQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zXLQ disponibili disponibili per essere spesi (maturi e spendibili)
-Gli zXLQ sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
+zFFQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zFFQ disponibili disponibili per essere spesi (maturi e spendibili)
+Gli zFFQ sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
     </message>
     <message>
-        <source>0 zXLQ</source>
-        <translation>0 zXLQ</translation>
+        <source>0 zFFQ</source>
+        <translation>0 zFFQ</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2040,31 +2040,31 @@ Gli zXLQ sono maturi quando hanno più di 20 conferme E più di 2 conii della st
         <translation>Statistiche Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zXLQ</source>
-        <translation>Saldo totale inclusi zXLQ non confermati e non maturi</translation>
+        <source>Total Balance including unconfirmed and immature zFFQ</source>
+        <translation>Saldo totale inclusi zFFQ non confermati e non maturi</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
         <translation>Saldo totale Zerocoin:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zXLQ minting.
+        <source>Show the current status of automatic zFFQ minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to faqo.conf
 - disable: add 'enablezeromint=0' to faqo.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zXLQ
+- menu Settings-&gt;Options-&gt;Percentage of autominted zFFQ
 
 </source>
-        <translation>Mostra lo stato corrente del conio automatico zXLQ.
+        <translation>Mostra lo stato corrente del conio automatico zFFQ.
 Per cambiare lo stato (riavvio necessario):
 - attivato: aggiungi 'enablezeromint=1' a faqo.conf
 - disattivato: aggiungi 'enablezeromint=0' a faqo.conf
 
 Per cambiare la percentuale (riavvio non necessario):
-- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zXLQ da coniare automaticamente
+- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zFFQ da coniare automaticamente
 
 </translation>
     </message>
@@ -2209,8 +2209,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>zXLQ Mint</source>
-        <translation>Conio zXLQ</translation>
+        <source>zFFQ Mint</source>
+        <translation>Conio zFFQ</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2666,14 +2666,14 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>ZXlqControlDialog</name>
+    <name>ZFfqControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     </context>
 <context>

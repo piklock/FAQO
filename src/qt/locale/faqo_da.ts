@@ -176,7 +176,7 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FFQs from being stolen by malware infecting your computer.</source>
         <translation>FAQO vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLQ&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE XLQ&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FFQ&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE FFQ&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Vis transaktionshistorik</translation>
     </message>
     <message>
-        <source>Privacy Actions for zXLQ</source>
-        <translation>Beskyttelse af personlige oplysninger for zXLQ</translation>
+        <source>Privacy Actions for zFFQ</source>
+        <translation>Beskyttelse af personlige oplysninger for zFFQ</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1130,8 +1130,8 @@ Adresse: %4
         <translation>Denne tekstmarkør bliver rød, hvis en modtageradresse modtager et beløb mindre end %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uXLQ per input.</source>
-        <translation>Kan variere +/- %1 oXLQ pr input.</translation>
+        <source>Can vary +/- %1 uFFQ per input.</source>
+        <translation>Kan variere +/- %1 oFFQ pr input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1681,8 +1681,8 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Adresse / Beløb:</translation>
     </message>
     <message>
-        <source>Add destinations to send XLQ to</source>
-        <translation>Tilføj destinationer for at sende XLQ til</translation>
+        <source>Add destinations to send FFQ to</source>
+        <translation>Tilføj destinationer for at sende FFQ til</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1780,32 +1780,32 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 XLQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 FFQ</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 XLQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 FFQ</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Brug 16 separate masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLQ to anonymize 10000 XLQ</source>
-        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 XLQ for at anonymiser 10000 XLQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 FFQ to anonymize 10000 FFQ</source>
+        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 FFQ for at anonymiser 10000 FFQ</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLQ to anonymize 10000 XLQ</source>
-        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 XLQ for at anonymiser 10000 XLQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 FFQ to anonymize 10000 FFQ</source>
+        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 FFQ for at anonymiser 10000 FFQ</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Denne mulighed er den langsomste og det mest sikre valg. Valg af maksimal tilsløring vil koste</translation>
     </message>
     <message>
-        <source>0.1 XLQ per 10000 XLQ you anonymize.</source>
-        <translation>0.1 pr 10000 XLQ for at tilsløre.</translation>
+        <source>0.1 FFQ per 10000 FFQ you anonymize.</source>
+        <translation>0.1 pr 10000 FFQ for at tilsløre.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of XLQ units to zXLQ</source>
-        <translation>Aktivér automatisk mintning af XLQ-enheder til zXLQ</translation>
+        <source>Enable automatic minting of FFQ units to zFFQ</source>
+        <translation>Aktivér automatisk mintning af FFQ-enheder til zFFQ</translation>
     </message>
     <message>
-        <source>Enable zXLQ Automint</source>
-        <translation>Aktivér zXLQ Automint</translation>
+        <source>Enable zFFQ Automint</source>
+        <translation>Aktivér zFFQ Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLQ which get automatically converted to zXLQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentdelen af indkommende XLQ, som automatisk konverteres til zXLQ via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming FFQ which get automatically converted to zFFQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentdelen af indkommende FFQ, som automatisk konverteres til zFFQ via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLQ</source>
-        <translation>Procentdel af automatiseret zXLQ</translation>
+        <source>Percentage of autominted zFFQ</source>
+        <translation>Procentdel af automatiseret zFFQ</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLQ for this denomination is available</source>
-        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok XLQ til denne betegnelse er tilgængelig</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough FFQ for this denomination is available</source>
+        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok FFQ til denne betegnelse er tilgængelig</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLQ Denomination</source>
-        <translation>Foretrukket Automint zXLQ Denomination</translation>
+        <source>Preferred Automint zFFQ Denomination</source>
+        <translation>Foretrukket Automint zFFQ Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Samlet saldo, inklusive alle utilgængelige mønter.</translation>
     </message>
     <message>
-        <source>XLQ Balance</source>
-        <translation>XLQ Balance</translation>
+        <source>FFQ Balance</source>
+        <translation>FFQ Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2159,14 +2159,14 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Din nuværende FAQO-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
     </message>
     <message>
-        <source>zXLQ Balance</source>
-        <translation>zXLQ-saldo</translation>
+        <source>zFFQ Balance</source>
+        <translation>zFFQ-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zXLQ are spendable.</source>
+These zFFQ are spendable.</source>
         <translation>Ældre: mere end 20 bekræftelser og mere end 1 minutter med samme betegnelse, efter at den blev minted
-Disse zXLQ kan bruges.</translation>
+Disse zFFQ kan bruges.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2219,8 +2219,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Brugbare:</translation>
     </message>
     <message>
-        <source>Locked XLQ or Masternode collaterals. These are excluded from zXLQ minting.</source>
-        <translation>Låste XLQ eller Masternode collaterals. Disse er udelukket fra zXLQ-mintning.</translation>
+        <source>Locked FFQ or Masternode collaterals. These are excluded from zFFQ minting.</source>
+        <translation>Låste FFQ eller Masternode collaterals. Disse er udelukket fra zFFQ-mintning.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ubekræftet:</translation>
     </message>
     <message>
-        <source>Your current zXLQ balance, unconfirmed and immature zXLQ included.</source>
-        <translation>Din nuværende zXLQ-saldo, ubekræftede og umodne zXLQ inkluderet.</translation>
+        <source>Your current zFFQ balance, unconfirmed and immature zFFQ included.</source>
+        <translation>Din nuværende zFFQ-saldo, ubekræftede og umodne zFFQ inkluderet.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ude af synk</translation>
     </message>
     <message>
-        <source>Current percentage of zXLQ.
+        <source>Current percentage of zFFQ.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuværende procentdel af zXLQ
+        <translation>Nuværende procentdel af zFFQ
 Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigurerede AutoMint-procent (default = 10%)</translation>
     </message>
     <message>
@@ -2389,8 +2389,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2401,8 +2401,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Til rådighed til Minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLQ</source>
-        <translation>0.000 000 00 XLQ</translation>
+        <source>0.000 000 00 FFQ</source>
+        <translation>0.000 000 00 FFQ</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2441,16 +2441,16 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>PRIVATLIV</translation>
     </message>
     <message>
-        <source>Enter an amount of XLQ to convert to zXLQ</source>
-        <translation>Indtast en mængde XLQ for at konvertere til zXlq</translation>
+        <source>Enter an amount of FFQ to convert to zFFQ</source>
+        <translation>Indtast en mængde FFQ for at konvertere til zFfq</translation>
     </message>
     <message>
-        <source>zXLQ Control</source>
-        <translation>zXLQ Control</translation>
+        <source>zFFQ Control</source>
+        <translation>zFFQ Control</translation>
     </message>
     <message>
-        <source>zXLQ Selected:</source>
-        <translation>zXLQ Selected:</translation>
+        <source>zFFQ Selected:</source>
+        <translation>zFFQ Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2465,24 +2465,24 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Tilbring Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending</source>
-        <translation>Tilgængelig (moden og brugt) zXLQ for udgifter</translation>
+        <source>Available (mature and spendable) zFFQ for spending</source>
+        <translation>Tilgængelig (moden og brugt) zFFQ for udgifter</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Disponibel saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending
+        <source>Available (mature and spendable) zFFQ for spending
 
-zXLQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tilgængelig (moden og brugt) zXLQ for spending
+zFFQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tilgængelig (moden og brugt) zFFQ for spending
 
-zXLQ er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
+zFFQ er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
     </message>
     <message>
-        <source>0 zXLQ</source>
-        <translation>0 zXLQ</translation>
+        <source>0 zFFQ</source>
+        <translation>0 zFFQ</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2553,8 +2553,8 @@ zXLQ er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zXLQ</source>
-        <translation>Samlet saldo inklusive ubekræftede og umodne zXLQ</translation>
+        <source>Total Balance including unconfirmed and immature zFFQ</source>
+        <translation>Samlet saldo inklusive ubekræftede og umodne zFFQ</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2575,24 +2575,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at den blev mønnet</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zXLQ minting.
+        <source>Show the current status of automatic zFFQ minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to faqo.conf
 - disable: add 'enablezeromint=0' to faqo.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zXLQ
+- menu Settings-&gt;Options-&gt;Percentage of autominted zFFQ
 
 </source>
-        <translation>Vis den aktuelle status for automatisk zXLQ minting.øj
+        <translation>Vis den aktuelle status for automatisk zFFQ minting.øj
 
 For at ændre status (genstart kræves):.
 - aktiver: tilføj 'enablezeromint = 1' til faqo.conf
 - deaktiver: tilføj 'enablezeromint = 0' til faqo.conf
 
 For at ændre procentdelen (ingen genstart kræves):.
-- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zXLQ
+- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zFFQ
 </translation>
     </message>
     <message>
@@ -2788,12 +2788,12 @@ Maximum allowed: </source>
 Maksimum tilladt:</translation>
     </message>
     <message>
-        <source>zXLQ Spend #: </source>
-        <translation>zXLQ Spend #: </translation>
+        <source>zFFQ Spend #: </source>
+        <translation>zFFQ Spend #: </translation>
     </message>
     <message>
-        <source>zXLQ Mint</source>
-        <translation>zXLQ Mint</translation>
+        <source>zFFQ Mint</source>
+        <translation>zFFQ Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2808,12 +2808,12 @@ Maksimum tilladt:</translation>
         <translation>Konfigureret målprocent:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zXLQ is currently disabled due to maintenance.</source>
-        <translation>zXLQ er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
+        <source>zFFQ is currently disabled due to maintenance.</source>
+        <translation>zFFQ er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
     </message>
     <message>
-        <source>zXLQ is currently undergoing maintenance.</source>
-        <translation>zXLQ er i øjeblikket under opretholdelse.</translation>
+        <source>zFFQ is currently undergoing maintenance.</source>
+        <translation>zFFQ er i øjeblikket under opretholdelse.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2900,8 +2900,8 @@ Maksimum tilladt:</translation>
         <translation>Mynt succesfuldt</translation>
     </message>
     <message>
-        <source> zXLQ in </source>
-        <translation> zXLQ i</translation>
+        <source> zFFQ in </source>
+        <translation> zFFQ i</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2960,12 +2960,12 @@ Maksimum tilladt:</translation>
         <translation>Bekræft at De vil sende mønter</translation>
     </message>
     <message>
-        <source>Version 1 zXLQ require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zXLQ kræver et sikkerhedsniveau på 100 til succes.</translation>
+        <source>Version 1 zFFQ require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zFFQ kræver et sikkerhedsniveau på 100 til succes.</translation>
     </message>
     <message>
-        <source>Failed to spend zXLQ</source>
-        <translation>Kunne ikke bruge zXLQ</translation>
+        <source>Failed to spend zFFQ</source>
+        <translation>Kunne ikke bruge zFFQ</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2987,7 +2987,7 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of XLQ to convert to zXLQ</comment>
+        <comment>Enter an amount of FFQ to convert to zFFQ</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3304,8 +3304,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Brugerdefineret Backup-sti:</translation>
     </message>
     <message>
-        <source>Custom zXLQ Backup Path:</source>
-        <translation>Brugerdefineret zXLQ Backup-sti:</translation>
+        <source>Custom zFFQ Backup Path:</source>
+        <translation>Brugerdefineret zFFQ Backup-sti:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3748,8 +3748,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 XLQ</source>
-        <translation>0 XLQ</translation>
+        <source>0 FFQ</source>
+        <translation>0 FFQ</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3804,12 +3804,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Mønter vælges automatisk</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLQs in fee,&lt;br /&gt;while "at least" pays 1000 uXLQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXLQs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uXLQ i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uXLQs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uFFQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFFQs in fee,&lt;br /&gt;while "at least" pays 1000 uFFQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uFFQs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uFFQ i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uFFQs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLQs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uXLQs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uXLQ i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uXLQs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uFFQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFFQs in fee,&lt;br /&gt;while "total at least" pays 1000 uFFQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uFFQs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uFFQ i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uFFQs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FAQO transactions than the network can process.</source>
@@ -3860,8 +3860,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Tilføj &amp;Modtager</translation>
     </message>
     <message>
-        <source>Anonymized XLQ</source>
-        <translation>Tilsløret XLQ</translation>
+        <source>Anonymized FFQ</source>
+        <translation>Tilsløret FFQ</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4524,12 +4524,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Modtaget via tilsløring</translation>
     </message>
     <message>
-        <source>XLQ Stake</source>
-        <translation>XLQ Stake</translation>
+        <source>FFQ Stake</source>
+        <translation>FFQ Stake</translation>
     </message>
     <message>
-        <source>zXLQ Stake</source>
-        <translation>zXLQ Stake</translation>
+        <source>zFFQ Stake</source>
+        <translation>zFFQ Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4548,32 +4548,32 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Opret tilsløret designering</translation>
     </message>
     <message>
-        <source>Converted XLQ to zXLQ</source>
-        <translation>Konverteret XLQ til zXLQ</translation>
+        <source>Converted FFQ to zFFQ</source>
+        <translation>Konverteret FFQ til zFFQ</translation>
     </message>
     <message>
-        <source>Spent zXLQ</source>
-        <translation>Brugt zXlq</translation>
+        <source>Spent zFFQ</source>
+        <translation>Brugt zFfq</translation>
     </message>
     <message>
-        <source>Received XLQ from zXLQ</source>
-        <translation>Modtaget XLQ fra zXlq</translation>
+        <source>Received FFQ from zFFQ</source>
+        <translation>Modtaget FFQ fra zFfq</translation>
     </message>
     <message>
-        <source>Minted Change as zXLQ from zXLQ Spend</source>
-        <translation>Minted Change som zXLQ fra zXLQ Spend</translation>
+        <source>Minted Change as zFFQ from zFFQ Spend</source>
+        <translation>Minted Change som zFFQ fra zFFQ Spend</translation>
     </message>
     <message>
-        <source>Converted zXLQ to XLQ</source>
-        <translation>Konverteret XLQ til zXLQ</translation>
+        <source>Converted zFFQ to FFQ</source>
+        <translation>Konverteret FFQ til zFFQ</translation>
     </message>
     <message>
-        <source>Anonymous (zXLQ Transaction)</source>
-        <translation>Anonym (zXLQ Transaction)</translation>
+        <source>Anonymous (zFFQ Transaction)</source>
+        <translation>Anonym (zFFQ Transaction)</translation>
     </message>
     <message>
-        <source>Anonymous (zXLQ Stake)</source>
-        <translation>Anonym (zXLQ Stake)</translation>
+        <source>Anonymous (zFFQ Stake)</source>
+        <translation>Anonym (zFFQ Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4783,12 +4783,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Eksporteret!</translation>
     </message>
     <message>
-        <source>Received XLQ from zXLQ</source>
-        <translation>Modtaget XLQ fra zXlq</translation>
+        <source>Received FFQ from zFFQ</source>
+        <translation>Modtaget FFQ fra zFfq</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLQ</source>
-        <translation>Zerocoin Spend, Ændring i zXLQ</translation>
+        <source>Zerocoin Spend, Change in zFFQ</source>
+        <translation>Zerocoin Spend, Ændring i zFFQ</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4824,8 +4824,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>HyperSend doesn't support sending values that high yet. Transactions are currently limited to %1 XLQ.</source>
-        <translation>hypersend understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1XLQ.</translation>
+        <source>HyperSend doesn't support sending values that high yet. Transactions are currently limited to %1 FFQ.</source>
+        <translation>hypersend understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1FFQ.</translation>
     </message>
 </context>
 <context>
@@ -4856,10 +4856,10 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
 </context>
 <context>
-    <name>ZXlqControlDialog</name>
+    <name>ZFfqControlDialog</name>
     <message>
-        <source>Select zXLQ to Spend</source>
-        <translation>Vælg zXLQ for at bruge</translation>
+        <source>Select zFFQ to Spend</source>
+        <translation>Vælg zFFQ for at bruge</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4870,8 +4870,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4938,16 +4938,16 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
 &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zXLQ minting (0-1, default: %u)</source>
-        <translation>Aktivér automatiske wallet-sikkerhedskopier udløst efter hver zXlq-mintning (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zFFQ minting (0-1, default: %u)</source>
+        <translation>Aktivér automatiske wallet-sikkerhedskopier udløst efter hver zFfq-mintning (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for XLQ inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for XLQ-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for FFQ inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for FFQ-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zXLQ inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for zXLQ-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zFFQ inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for zFFQ-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4982,12 +4982,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in XLQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in XLQ/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in FFQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in FFQ/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in XLQ/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in FFQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in FFQ/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5094,12 +5094,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLQ.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 XLQ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FFQ.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 FFQ.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLQ.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 XLQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 FFQ.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 FFQ.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5410,8 +5410,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in XLQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i XLQ/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in FFQ/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i FFQ/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5542,8 +5542,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Procentdel af automatisk mintede Zerocoin (10-100, standard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the XLQ and zXLQ money supply statistics</source>
-        <translation>Reindex XLQ og zXLQ pengemængde statistikker</translation>
+        <source>Reindex the FFQ and zFFQ money supply statistics</source>
+        <translation>Reindex FFQ og zFFQ pengemængde statistikker</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5618,8 +5618,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Foretrukken Betegnelse for automatisk mintede Zerocoin (1/5/10/50/100/500/1000/5000), 0 uden præference. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zXLQ backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zXLQ-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
+        <source>Specify custom backup path to add a copy of any automatic zFFQ backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zFFQ-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6118,8 +6118,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Synkroniserer sporks...</translation>
     </message>
     <message>
-        <source>Syncing zXLQ wallet...</source>
-        <translation>Syncing zXLQ wallet ..</translation>
+        <source>Syncing zFFQ wallet...</source>
+        <translation>Syncing zFFQ wallet ..</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6266,8 +6266,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Brugernavn til JSON-RPC forbindelser</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zXLQ</source>
-        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zXLQ</translation>
+        <source>Value is below the smallest available denomination (= 1) of zFFQ</source>
+        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zFFQ</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6282,8 +6282,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Verificerer  tegnebog</translation>
     </message>
     <message>
-        <source>Version 1 zXLQ require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zXLQ kræver et sikkerhedsniveau på 100 til succes.</translation>
+        <source>Version 1 zFFQ require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zFFQ kræver et sikkerhedsniveau på 100 til succes.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>

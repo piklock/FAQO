@@ -176,7 +176,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLQs from being stolen by malware infecting your computer.</source>
+        <source>FAQO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FFQs from being stolen by malware infecting your computer.</source>
         <translation>FAQO сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши FAQO от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLQ&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ XLQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FFQ&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ FFQ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,7 +433,7 @@
         <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
-        <source>Privacy Actions for zXLQ</source>
+        <source>Privacy Actions for zFFQ</source>
         <translation>Действия конфиденциальности для зпив</translation>
     </message>
     <message>
@@ -1130,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Этот маркер становится красным если получаемая адресатом сумма меньше, чем %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uXLQ per input.</source>
-        <translation>Может вариироваться +/- %1 uXLQ при вводе</translation>
+        <source>Can vary +/- %1 uFFQ per input.</source>
+        <translation>Может вариироваться +/- %1 uFFQ при вводе</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1681,8 +1681,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес/ Сумма:</translation>
     </message>
     <message>
-        <source>Add destinations to send XLQ to</source>
-        <translation>Добавить назначение куда отправить XLQ</translation>
+        <source>Add destinations to send FFQ to</source>
+        <translation>Добавить назначение куда отправить FFQ</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1780,32 +1780,32 @@ Please be patient after clicking import.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 XLQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 FFQ</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLQ</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 XLQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 FFQ</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 FFQ</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLQ to anonymize 10000 XLQ</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 XLQ для анонимизации 10000 XLQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 FFQ to anonymize 10000 FFQ</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 FFQ для анонимизации 10000 FFQ</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLQ to anonymize 10000 XLQ</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 XLQ для анонимизации 10000 XLQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 FFQ to anonymize 10000 FFQ</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 FFQ для анонимизации 10000 FFQ</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 XLQ per 10000 XLQ you anonymize.</source>
-        <translation>0.1 XLQ за 10000 XLQ которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 FFQ per 10000 FFQ you anonymize.</source>
+        <translation>0.1 FFQ за 10000 FFQ которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of XLQ units to zXLQ</source>
-        <translation>Невозможно автоматически отчеканить единицы XLQ для zXLQ</translation>
+        <source>Enable automatic minting of FFQ units to zFFQ</source>
+        <translation>Невозможно автоматически отчеканить единицы FFQ для zFFQ</translation>
     </message>
     <message>
-        <source>Enable zXLQ Automint</source>
-        <translation>Невозможно авточеканка  zXLQ</translation>
+        <source>Enable zFFQ Automint</source>
+        <translation>Невозможно авточеканка  zFFQ</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLQ which get automatically converted to zXLQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих XLQ, которые автоматически конвертируются в zXLQ благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming FFQ which get automatically converted to zFFQ via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих FFQ, которые автоматически конвертируются в zFFQ благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLQ</source>
-        <translation>Процент  авточеканненых zXLQ</translation>
+        <source>Percentage of autominted zFFQ</source>
+        <translation>Процент  авточеканненых zFFQ</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLQ for this denomination is available</source>
-        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно XLQ для этой номинации.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough FFQ for this denomination is available</source>
+        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно FFQ для этой номинации.</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLQ Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zXLQ</translation>
+        <source>Preferred Automint zFFQ Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zFFQ</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Общий баланс включая все не доступные монеты</translation>
     </message>
     <message>
-        <source>XLQ Balance</source>
-        <translation>Баланс XLQ</translation>
+        <source>FFQ Balance</source>
+        <translation>Баланс FFQ</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2159,13 +2159,13 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Ваш текущий FAQO  баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
-        <source>zXLQ Balance</source>
-        <translation>Баланс zXLQ</translation>
+        <source>zFFQ Balance</source>
+        <translation>Баланс zFFQ</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zXLQ are spendable.</source>
-        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zXLQ можно потратить.</translation>
+These zFFQ are spendable.</source>
+        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zFFQ можно потратить.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2218,8 +2218,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>Locked XLQ or Masternode collaterals. These are excluded from zXLQ minting.</source>
-        <translation>Заблокированно дополнительное обеспечение XLQ или Masternode. Они исключены из чеканки zXLQ.</translation>
+        <source>Locked FFQ or Masternode collaterals. These are excluded from zFFQ minting.</source>
+        <translation>Заблокированно дополнительное обеспечение FFQ или Masternode. Они исключены из чеканки zFFQ.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2230,8 +2230,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Неподтвержденный:</translation>
     </message>
     <message>
-        <source>Your current zXLQ balance, unconfirmed and immature zXLQ included.</source>
-        <translation>Ваш текущий zXLQ баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current zFFQ balance, unconfirmed and immature zFFQ included.</source>
+        <translation>Ваш текущий zFFQ баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2242,10 +2242,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>несинронизировано</translation>
     </message>
     <message>
-        <source>Current percentage of zXLQ.
+        <source>Current percentage of zFFQ.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Текущий процент от zXLQ.
+        <translation>Текущий процент от zFFQ.
 Если АвтоЧеканка включена, этот процент будет располагаться на настроенном проценте АвтоЧеканка  (по умолчанию = 10%).
 </translation>
     </message>
@@ -2389,8 +2389,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2401,8 +2401,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>Доступный для чеканки</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLQ</source>
-        <translation>0.000 000 00 XLQ</translation>
+        <source>0.000 000 00 FFQ</source>
+        <translation>0.000 000 00 FFQ</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2441,16 +2441,16 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>КОНФИДЕНЦИАЛЬНОСТЬ</translation>
     </message>
     <message>
-        <source>Enter an amount of XLQ to convert to zXLQ</source>
-        <translation>Введите сумму в XLQ для  конвертации в zXLQ</translation>
+        <source>Enter an amount of FFQ to convert to zFFQ</source>
+        <translation>Введите сумму в FFQ для  конвертации в zFFQ</translation>
     </message>
     <message>
-        <source>zXLQ Control</source>
-        <translation>Контроль zXLQ</translation>
+        <source>zFFQ Control</source>
+        <translation>Контроль zFFQ</translation>
     </message>
     <message>
-        <source>zXLQ Selected:</source>
-        <translation>Выбрано zXLQ:</translation>
+        <source>zFFQ Selected:</source>
+        <translation>Выбрано zFFQ:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2465,24 +2465,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in faqo.conf<
         <translation>Потратить Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending</source>
-        <translation>Доступный (зрелый и расходуемый) zXLQ для расходов</translation>
+        <source>Available (mature and spendable) zFFQ for spending</source>
+        <translation>Доступный (зрелый и расходуемый) zFFQ для расходов</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Доступный Баланс :</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zXLQ for spending
+        <source>Available (mature and spendable) zFFQ for spending
 
-zXLQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Доступный (зрелый и затратный) zXLQ для расходов
+zFFQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Доступный (зрелый и затратный) zFFQ для расходов
 
-zXLQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zFFQ are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zXLQ</source>
-        <translation>0 zXLQ</translation>
+        <source>0 zFFQ</source>
+        <translation>0 zFFQ</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2553,8 +2553,8 @@ zXLQ are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zXLQ</source>
-        <translation>Общий баланс, включая неподтвержденные и незрелые zXLQ</translation>
+        <source>Total Balance including unconfirmed and immature zFFQ</source>
+        <translation>Общий баланс, включая неподтвержденные и незрелые zFFQ</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2575,24 +2575,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Незрелый: подтвержден, но менее 1 чеканок того же наименования после того, как он был отчеканен</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zXLQ minting.
+        <source>Show the current status of automatic zFFQ minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to faqo.conf
 - disable: add 'enablezeromint=0' to faqo.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zXLQ
+- menu Settings-&gt;Options-&gt;Percentage of autominted zFFQ
 
 </source>
-        <translation>Показать текущий статус автоматической чеканки zXLQ.
+        <translation>Показать текущий статус автоматической чеканки zFFQ.
 
 Чтобы изменить статус (требуется перезагрузка):
 - включить: добавить 'enablezeromint = 1' в faqo.conf
 - отключить: добавить 'enablezeromint = 0' в faqo.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
-- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zXLQ</translation>
+- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zFFQ</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2787,12 +2787,12 @@ Maximum allowed: </source>
 Максимально допустимое:</translation>
     </message>
     <message>
-        <source>zXLQ Spend #: </source>
-        <translation>zXLQ Тратить #: </translation>
+        <source>zFFQ Spend #: </source>
+        <translation>zFFQ Тратить #: </translation>
     </message>
     <message>
-        <source>zXLQ Mint</source>
-        <translation>чеканка zXLQ</translation>
+        <source>zFFQ Mint</source>
+        <translation>чеканка zFFQ</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2807,12 +2807,12 @@ Maximum allowed: </source>
         <translation> Настроенный целевой процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zXLQ is currently disabled due to maintenance.</source>
-        <translation>zXLQ в настоящее время отключен от обслуживания.</translation>
+        <source>zFFQ is currently disabled due to maintenance.</source>
+        <translation>zFFQ в настоящее время отключен от обслуживания.</translation>
     </message>
     <message>
-        <source>zXLQ is currently undergoing maintenance.</source>
-        <translation>В настоящее время zXLQ проходит техническое обслуживание.</translation>
+        <source>zFFQ is currently undergoing maintenance.</source>
+        <translation>В настоящее время zFFQ проходит техническое обслуживание.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2899,8 +2899,8 @@ Maximum allowed: </source>
         <translation>Создан успешно</translation>
     </message>
     <message>
-        <source> zXLQ in </source>
-        <translation> zXLQ в</translation>
+        <source> zFFQ in </source>
+        <translation> zFFQ в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2959,12 +2959,12 @@ Maximum allowed: </source>
         <translation>Подтвердить отправку монет</translation>
     </message>
     <message>
-        <source>Version 1 zXLQ require a security level of 100 to successfully spend.</source>
-        <translation>Для версии 1 zXLQ требуется уровень безопасности 100, который можно успешно тратить.</translation>
+        <source>Version 1 zFFQ require a security level of 100 to successfully spend.</source>
+        <translation>Для версии 1 zFFQ требуется уровень безопасности 100, который можно успешно тратить.</translation>
     </message>
     <message>
-        <source>Failed to spend zXLQ</source>
-        <translation>Не удалось провести zXLQ</translation>
+        <source>Failed to spend zFFQ</source>
+        <translation>Не удалось провести zFFQ</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2986,7 +2986,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of XLQ to convert to zXLQ</comment>
+        <comment>Enter an amount of FFQ to convert to zFFQ</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3303,8 +3303,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Пользовательский путь резервного копирования:</translation>
     </message>
     <message>
-        <source>Custom zXLQ Backup Path:</source>
-        <translation>Пользовательский путь резервного копирования zXLQ:</translation>
+        <source>Custom zFFQ Backup Path:</source>
+        <translation>Пользовательский путь резервного копирования zFFQ:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3748,8 +3748,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>UTXO Размер:</translation>
     </message>
     <message>
-        <source>0 XLQ</source>
-        <translation>0 XLQ</translation>
+        <source>0 FFQ</source>
+        <translation>0 FFQ</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3804,12 +3804,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Монеты автоматически выбираются</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLQs in fee,&lt;br /&gt;while "at least" pays 1000 uXLQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uXLQs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uXLQs,&lt;br /&gt;а «по крайней мере» платит 1000 uXLQ. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uFFQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFFQs in fee,&lt;br /&gt;while "at least" pays 1000 uFFQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uFFQs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uFFQs,&lt;br /&gt;а «по крайней мере» платит 1000 uFFQ. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLQs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uXLQs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uXLQs,&lt;br /&gt;а «по крайней мере» платит 1000 uXLQ. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uFFQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFFQs in fee,&lt;br /&gt;while "total at least" pays 1000 uFFQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uFFQs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uFFQs,&lt;br /&gt;а «по крайней мере» платит 1000 uFFQ. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FAQO transactions than the network can process.</source>
@@ -3860,8 +3860,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Добавить &amp;Получателя</translation>
     </message>
     <message>
-        <source>Anonymized XLQ</source>
-        <translation>Анонимный XLQ</translation>
+        <source>Anonymized FFQ</source>
+        <translation>Анонимный FFQ</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4524,12 +4524,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Получено через обфускацию</translation>
     </message>
     <message>
-        <source>XLQ Stake</source>
-        <translation>Доля XLQ</translation>
+        <source>FFQ Stake</source>
+        <translation>Доля FFQ</translation>
     </message>
     <message>
-        <source>zXLQ Stake</source>
-        <translation>Доля zXLQ</translation>
+        <source>zFFQ Stake</source>
+        <translation>Доля zFFQ</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4548,32 +4548,32 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Обфускация Создание конфессий</translation>
     </message>
     <message>
-        <source>Converted XLQ to zXLQ</source>
-        <translation>Преобразованный XLQ в zXLQ</translation>
+        <source>Converted FFQ to zFFQ</source>
+        <translation>Преобразованный FFQ в zFFQ</translation>
     </message>
     <message>
-        <source>Spent zXLQ</source>
-        <translation>потраченный zXLQ</translation>
+        <source>Spent zFFQ</source>
+        <translation>потраченный zFFQ</translation>
     </message>
     <message>
-        <source>Received XLQ from zXLQ</source>
-        <translation>Полученный XLQ от zXLQ</translation>
+        <source>Received FFQ from zFFQ</source>
+        <translation>Полученный FFQ от zFFQ</translation>
     </message>
     <message>
-        <source>Minted Change as zXLQ from zXLQ Spend</source>
-        <translation>созданная  замена  zXLQ из потраенного zXLQ </translation>
+        <source>Minted Change as zFFQ from zFFQ Spend</source>
+        <translation>созданная  замена  zFFQ из потраенного zFFQ </translation>
     </message>
     <message>
-        <source>Converted zXLQ to XLQ</source>
-        <translation>Преобразованный zXLQ to XLQ</translation>
+        <source>Converted zFFQ to FFQ</source>
+        <translation>Преобразованный zFFQ to FFQ</translation>
     </message>
     <message>
-        <source>Anonymous (zXLQ Transaction)</source>
-        <translation>Анонимный (транзакция zXLQ)</translation>
+        <source>Anonymous (zFFQ Transaction)</source>
+        <translation>Анонимный (транзакция zFFQ)</translation>
     </message>
     <message>
-        <source>Anonymous (zXLQ Stake)</source>
-        <translation>Анонимный (ставка zXLQ)</translation>
+        <source>Anonymous (zFFQ Stake)</source>
+        <translation>Анонимный (ставка zFFQ)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4783,12 +4783,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Экспортирование произошло успешно</translation>
     </message>
     <message>
-        <source>Received XLQ from zXLQ</source>
-        <translation>Полученный XLQ от zXLQ</translation>
+        <source>Received FFQ from zFFQ</source>
+        <translation>Полученный FFQ от zFFQ</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLQ</source>
-        <translation>Потратить Zerocoin, Преобразовать в zXLQ</translation>
+        <source>Zerocoin Spend, Change in zFFQ</source>
+        <translation>Потратить Zerocoin, Преобразовать в zFFQ</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4824,8 +4824,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Отправить Монеты</translation>
     </message>
     <message>
-        <source>HyperSend doesn't support sending values that high yet. Transactions are currently limited to %1 XLQ.</source>
-        <translation>HyperSend не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 XLQ.</translation>
+        <source>HyperSend doesn't support sending values that high yet. Transactions are currently limited to %1 FFQ.</source>
+        <translation>HyperSend не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 FFQ.</translation>
     </message>
 </context>
 <context>
@@ -4856,10 +4856,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZXlqControlDialog</name>
+    <name>ZFfqControlDialog</name>
     <message>
-        <source>Select zXLQ to Spend</source>
-        <translation>Выберите zXLQ чтобы потратить</translation>
+        <source>Select zFFQ to Spend</source>
+        <translation>Выберите zFFQ чтобы потратить</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4870,8 +4870,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLQ</source>
-        <translation>zXLQ</translation>
+        <source>zFFQ</source>
+        <translation>zFFQ</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4937,16 +4937,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Распространяется по лицензии программного обеспечения MIT, см. Сопроводительный файл COPYING или &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zXLQ minting (0-1, default: %u)</source>
-        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zXLQ (0-1, по умолчанию: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zFFQ minting (0-1, default: %u)</source>
+        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zFFQ (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for XLQ inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов XLQ (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for FFQ inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов FFQ (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zXLQ inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов zXLQ (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for zFFQ inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов zFFQ (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4981,12 +4981,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Выполнить команду, когда лучший блок изменяется (%s в cmd заменяется блочным хэшем)</translation>
     </message>
     <message>
-        <source>Fees (in XLQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Тарифы (в XLQ / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
+        <source>Fees (in FFQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Тарифы (в FFQ / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Плата (в XLQ / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
+        <source>Fees (in FFQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Плата (в FFQ / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5093,12 +5093,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не удалось найти достаточное количество средств, предназначенных для обфускации, для этой транзакции.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLQ.</source>
-        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 XLQ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FFQ.</source>
+        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 FFQ.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLQ.</source>
-        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 XLQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 FFQ.</source>
+        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 FFQ.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5409,8 +5409,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не удалось прочитать блок</translation>
     </message>
     <message>
-        <source>Fee (in XLQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Плата (в XLQ / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
+        <source>Fee (in FFQ/kB) to add to transactions you send (default: %s)</source>
+        <translation>Плата (в FFQ / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5541,8 +5541,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Процент автоматически отчеканенного Zerocoin (1-100, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Reindex the XLQ and zXLQ money supply statistics</source>
-        <translation>Reindex статистика денежной массы XLQ и zXLQ</translation>
+        <source>Reindex the FFQ and zFFQ money supply statistics</source>
+        <translation>Reindex статистика денежной массы FFQ и zFFQ</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5617,8 +5617,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Предпочтительный номинал для автоматически чеканившегося Zerocoin (1/5/10/50/100/500/1000/5000), 0 без предпочтений. default: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zXLQ backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zXLQ. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
+        <source>Specify custom backup path to add a copy of any automatic zFFQ backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zFFQ. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6117,8 +6117,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Синхронизация спорков ...</translation>
     </message>
     <message>
-        <source>Syncing zXLQ wallet...</source>
-        <translation>Синхронизация zXLQ кошелька ...</translation>
+        <source>Syncing zFFQ wallet...</source>
+        <translation>Синхронизация zFFQ кошелька ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6265,8 +6265,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Имя пользователя для соединений JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zXLQ</source>
-        <translation>Значение ниже наименьшего доступного номинала (= 1) zXlq</translation>
+        <source>Value is below the smallest available denomination (= 1) of zFFQ</source>
+        <translation>Значение ниже наименьшего доступного номинала (= 1) zFfq</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6281,8 +6281,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Проверка кошелька ...</translation>
     </message>
     <message>
-        <source>Version 1 zXLQ require a security level of 100 to successfully spend.</source>
-        <translation>Для версии 1 zXLQ требуется уровень безопасности 100, который можно успешно тратить.</translation>
+        <source>Version 1 zFFQ require a security level of 100 to successfully spend.</source>
+        <translation>Для версии 1 zFFQ требуется уровень безопасности 100, который можно успешно тратить.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>

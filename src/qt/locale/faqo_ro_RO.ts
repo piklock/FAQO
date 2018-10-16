@@ -189,7 +189,7 @@
     </message>
     </context>
 <context>
-    <name>ZXlqControlDialog</name>
+    <name>ZFfqControlDialog</name>
     </context>
 <context>
     <name>alqo-core</name>

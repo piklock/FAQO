@@ -58,12 +58,12 @@ QT_TRANSLATE_NOOP("faqo-core", ""
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Enable HyperSend, show confirmations for locked transactions (bool, default: %s)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
-"Enable automatic wallet backups triggered after each zXLQ minting (0-1, "
+"Enable automatic wallet backups triggered after each zFFQ minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
-"Enable or disable staking functionality for XLQ inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for FFQ inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
-"Enable or disable staking functionality for zXLQ inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for zFFQ inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("faqo-core", ""
@@ -100,10 +100,10 @@ QT_TRANSLATE_NOOP("faqo-core", ""
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
 QT_TRANSLATE_NOOP("faqo-core", ""
-"Fees (in XLQ/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in FFQ/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
-"Fees (in XLQ/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in FFQ/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -171,7 +171,7 @@ QT_TRANSLATE_NOOP("faqo-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("faqo-core", ""
-"Specify custom backup path to add a copy of any automatic zXLQ backup. If "
+"Specify custom backup path to add a copy of any automatic zFFQ backup. If "
 "set as dir, every backup generates a timestamped file. If set as file, will "
 "rewrite to that file every backup. If backuppath is set as well, 4 backups "
 "will happen"),
@@ -197,10 +197,10 @@ QT_TRANSLATE_NOOP("faqo-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 XLQ."),
+"transaction that are not equal 10000 FFQ."),
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"XLQ."),
+"FFQ."),
 QT_TRANSLATE_NOOP("faqo-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -321,7 +321,7 @@ QT_TRANSLATE_NOOP("faqo-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("faqo-core", "Failed to select a zerocoin"),
 QT_TRANSLATE_NOOP("faqo-core", "Failed to wipe zerocoinDB"),
 QT_TRANSLATE_NOOP("faqo-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("faqo-core", "Fee (in XLQ/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("faqo-core", "Fee (in FFQ/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("faqo-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("faqo-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("faqo-core", "Found enough users, signing ( waiting %s )"),
@@ -410,7 +410,7 @@ QT_TRANSLATE_NOOP("faqo-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("faqo-core", "Randomly fuzz 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("faqo-core", "Rebuild block chain index from current blk000??.dat files"),
 QT_TRANSLATE_NOOP("faqo-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("faqo-core", "Reindex the XLQ and zXLQ money supply statistics"),
+QT_TRANSLATE_NOOP("faqo-core", "Reindex the FFQ and zFFQ money supply statistics"),
 QT_TRANSLATE_NOOP("faqo-core", "Reindex the accumulator database"),
 QT_TRANSLATE_NOOP("faqo-core", "Reindexing zerocoin database..."),
 QT_TRANSLATE_NOOP("faqo-core", "Reindexing zerocoin failed"),
@@ -462,7 +462,7 @@ QT_TRANSLATE_NOOP("faqo-core", "Synchronizing budgets..."),
 QT_TRANSLATE_NOOP("faqo-core", "Synchronizing masternode winners..."),
 QT_TRANSLATE_NOOP("faqo-core", "Synchronizing masternodes..."),
 QT_TRANSLATE_NOOP("faqo-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("faqo-core", "Syncing zXLQ wallet..."),
+QT_TRANSLATE_NOOP("faqo-core", "Syncing zFFQ wallet..."),
 QT_TRANSLATE_NOOP("faqo-core", "The coin spend has been used"),
 QT_TRANSLATE_NOOP("faqo-core", "The new spend coin transaction did not verify"),
 QT_TRANSLATE_NOOP("faqo-core", "The selected mint coin is an invalid coin"),
@@ -499,11 +499,11 @@ QT_TRANSLATE_NOOP("faqo-core", "Use UPnP to map the listening port (default: 1 w
 QT_TRANSLATE_NOOP("faqo-core", "Use a custom max chain reorganization depth (default: %u)"),
 QT_TRANSLATE_NOOP("faqo-core", "Use the test network"),
 QT_TRANSLATE_NOOP("faqo-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("faqo-core", "Value is below the smallest available denomination (= 1) of zXLQ"),
+QT_TRANSLATE_NOOP("faqo-core", "Value is below the smallest available denomination (= 1) of zFFQ"),
 QT_TRANSLATE_NOOP("faqo-core", "Value more than Obfuscation pool maximum allows."),
 QT_TRANSLATE_NOOP("faqo-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("faqo-core", "Verifying wallet..."),
-QT_TRANSLATE_NOOP("faqo-core", "Version 1 zXLQ require a security level of 100 to successfully spend."),
+QT_TRANSLATE_NOOP("faqo-core", "Version 1 zFFQ require a security level of 100 to successfully spend."),
 QT_TRANSLATE_NOOP("faqo-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("faqo-core", "Wallet is locked."),
 QT_TRANSLATE_NOOP("faqo-core", "Wallet needed to be rewritten: restart FAQO Core to complete"),
