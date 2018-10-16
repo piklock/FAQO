@@ -192,6 +192,6 @@
     <name>ZFfqControlDialog</name>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     </context>
 </TS>

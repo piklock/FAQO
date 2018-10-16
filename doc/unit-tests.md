@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the alqod tests manually, launch src/test/test_alqo .
+To run the faqod tests manually, launch src/test/test_faqo .
 
-To add more alqod tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more faqod tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the alqo-qt tests manually, launch src/qt/test/alqo-qt_test
+To run the faqo-qt tests manually, launch src/qt/test/faqo-qt_test
 
-To add more alqo-qt tests, add them to the `src/qt/test/` directory and
+To add more faqo-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

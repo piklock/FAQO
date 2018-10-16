@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../alqo.qrc"/>
+  <include location="../faqo.qrc"/>
  </resources>
  <connections/>
 </ui>

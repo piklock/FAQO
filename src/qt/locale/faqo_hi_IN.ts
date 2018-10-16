@@ -324,7 +324,7 @@
     <name>ZFfqControlDialog</name>
     </context>
 <context>
-    <name>alqo-core</name>
+    <name>faqo-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

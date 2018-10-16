@@ -1,6 +1,6 @@
 [Protocol]
-exec=alqo-qt '%u'
-protocol=alqo
+exec=faqo-qt '%u'
+protocol=faqo
 input=none
 output=none
 helper=true
