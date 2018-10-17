@@ -235,10 +235,10 @@ QT_TRANSLATE_NOOP("faqo-core", ""
 QT_TRANSLATE_NOOP("faqo-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("faqo-core", "(55500 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("faqo-core", "(55581 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("faqo-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("faqo-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("faqo-core", "(must be 55500 for mainnet)"),
+QT_TRANSLATE_NOOP("faqo-core", "(must be 55581 for mainnet)"),
 QT_TRANSLATE_NOOP("faqo-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("faqo-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("faqo-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

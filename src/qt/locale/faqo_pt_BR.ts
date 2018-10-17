@@ -3728,8 +3728,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(55500 could be used only on mainnet)</source>
-        <translation>(55500 could be used only on mainnet)</translation>
+        <source>(55581 could be used only on mainnet)</source>
+        <translation>(55581 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3740,8 +3740,8 @@ https://www.transifex.com/faqo-project/faqo-project-translations</translation>
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 55500 for mainnet)</source>
-        <translation>(deve ser 55500 para mainnet)</translation>
+        <source>(must be 55581 for mainnet)</source>
+        <translation>(deve ser 55581 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

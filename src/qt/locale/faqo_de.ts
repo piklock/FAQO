@@ -5137,8 +5137,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Sie müssen einen privaten Masternode-Schlüssel in der Konfiguration festlegen. Bitte nutzen Sie die Dokumentation zwecks Hilfe.</translation>
     </message>
     <message>
-        <source>(55500 could be used only on mainnet)</source>
-        <translation>(55500 kann nur im Mainnet verwendet werden)</translation>
+        <source>(55581 could be used only on mainnet)</source>
+        <translation>(55581 kann nur im Mainnet verwendet werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5149,8 +5149,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 55500 for mainnet)</source>
-        <translation>(muss im Mainnet 55500 sein)</translation>
+        <source>(must be 55581 for mainnet)</source>
+        <translation>(muss im Mainnet 55581 sein)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
