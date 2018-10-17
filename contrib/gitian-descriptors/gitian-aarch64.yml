@@ -1,5 +1,5 @@
 ---
-name: "faqo-aarch64-3.2"
+name: "faqo-aarch64-1.0.0.1"
 enable_cache: true
 suites:
 - "xenial"
